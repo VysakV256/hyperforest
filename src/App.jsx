@@ -1,6 +1,7 @@
 import React, { useRef, useState, useCallback, useMemo, useEffect } from 'react';
 import ForceGraph3D from 'react-force-graph-3d';
 import * as THREE from 'three';
+import { AreaChart, Area, ResponsiveContainer, YAxis } from 'recharts';
 import graphData from './datasets.json';
 import './index.css';
 
@@ -276,6 +277,29 @@ export default function App() {
 
             {hoverNode.abstract && (
               <p className="abstract">{hoverNode.abstract}</p>
+            )}
+
+            {hoverNode.csv_preview && hoverNode.csv_preview.length > 0 && (
+              <div style={{ width: '100%', height: '80px', marginTop: '1rem', marginBottom: '0.5rem' }}>
+                <ResponsiveContainer width="100%" height="100%">
+                  <AreaChart data={hoverNode.csv_preview}>
+                    <defs>
+                      <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="5%" stopColor={hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : "#2a9d8f"} stopOpacity={0.8}/>
+                        <stop offset="95%" stopColor={hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : "#2a9d8f"} stopOpacity={0}/>
+                      </linearGradient>
+                    </defs>
+                    <YAxis domain={['dataMin', 'dataMax']} hide={true} />
+                    <Area 
+                      type="monotone" 
+                      dataKey="value" 
+                      stroke={hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : "#2a9d8f"} 
+                      fillOpacity={1} 
+                      fill="url(#colorValue)" 
+                    />
+                  </AreaChart>
+                </ResponsiveContainer>
+              </div>
             )}
 
             {hoverNode.keywords && hoverNode.keywords.length > 0 && (
