@@ -1,0 +1,7669 @@
+{
+  "nodes": [
+    {
+      "id": "Dynamics",
+      "name": "Dynamics",
+      "group": "theme",
+      "val": 15
+    },
+    {
+      "id": "Structure",
+      "name": "Structure",
+      "group": "theme",
+      "val": 15
+    },
+    {
+      "id": "Emergence",
+      "name": "Emergence",
+      "group": "theme",
+      "val": 15
+    },
+    {
+      "id": "Potentiality",
+      "name": "Potentiality",
+      "group": "theme",
+      "val": 15
+    },
+    {
+      "id": "Utopia",
+      "name": "Utopia",
+      "group": "theme",
+      "val": 15
+    },
+    {
+      "id": "knb-lter-hbr.348.1",
+      "name": "knb-lter-hbr.348.1",
+      "package": "knb-lter-hbr.348.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF_W1_W6_SeedlingBankTransects2018"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.46.7",
+      "name": "knb-lter-hbr.46.7",
+      "package": "knb-lter-hbr.46.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "lai"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.361.3",
+      "name": "knb-lter-hbr.361.3",
+      "package": "knb-lter-hbr.361.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "W3-lateral-weathering-pedons",
+        "W3-lateral-weathering-horizons"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.323.1",
+      "name": "knb-lter-hbr.323.1",
+      "package": "knb-lter-hbr.323.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "SFS_Tree_BAI"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.437.1",
+      "name": "knb-lter-hbr.437.1",
+      "package": "knb-lter-hbr.437.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "CCASE_Frost_Snow",
+        "CCASE_Soil_Temp",
+        "CCASE_Soil.Temp_Snow.Depth_Soil.Frost_RMarkdown"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.165.3",
+      "name": "knb-lter-hbr.165.3",
+      "package": "knb-lter-hbr.165.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Soil_Properties_2009_2017_Fisk"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.13.24",
+      "name": "knb-lter-hbr.13.24",
+      "package": "knb-lter-hbr.13.24",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF daily precip",
+        "site info"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.321.2",
+      "name": "Multiple Element Limitation in Northern Hardwood Ecosystems (MELNHE) - Raw images for the analysis of stomatal density and length 2021-2022",
+      "package": "knb-lter-hbr.321.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "MELNHE_Stomatal_Density_Yellow_Birch_Length",
+        "MELNHE_Stomatal_Density_Yellow_Birch",
+        "MELNHE_Stomatal_Density_Sugar_Maple",
+        "MELNHE_Stomatal_Density_Sugar_Maple_Length",
+        "MELNHE_Stomatal_Density_Sugar_Maple_PILOT_20x"
+      ],
+      "abstract": "Stomatal density and length were measured on leaves of sugar maple (Acer sacharrum Marsh.) and yellow birch (Betula alleghaniensis Britton.) trees in New Hampshire at the Bartlett Experimental Forest, Hubbard Brook Experimental Forest, and Jeffers Brook as part of the Multiple Elementation Limitatio...",
+      "keywords": [
+        "stomata",
+        "stomatal density",
+        "stomatal length",
+        "MELNHE",
+        "HBR"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.188.3",
+      "name": "knb-lter-hbr.188.3",
+      "package": "knb-lter-hbr.188.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ccase_snowfrost_2012_2019"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.206.1",
+      "name": "Coarse Woody Debris on Watershed 6, Hubbard Brook Experimental Forest",
+      "package": "knb-lter-hbr.206.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "W6 CWD Transect Species Mass",
+        "W6 CWD Wood data",
+        "W6 CWD Log data",
+        "W6 CWD Plot data"
+      ],
+      "abstract": "Fallen dead wood was sampled in Watershed 6 (W6) of the Hubbard Brook   Experimental Forest in 1978, 1995, and 2016. Two techniques, one for   bolewood >3 cm in diameter and one for fallen twigs <3 cm and   > 2 mm, were combined to determine the mass of fallen dead wood in   the forest. The mass of ...",
+      "keywords": [
+        "HBR",
+        "Hubbard Brook LTER",
+        "carbon",
+        "coarse woody debris",
+        "nitrogen"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.146.1",
+      "name": "knb-lter-hbr.146.1",
+      "package": "knb-lter-hbr.146.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF_FreezeStudy_FrostDepth_archive",
+        "HBEF_FreezeStudy_SnowDepth_archive"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.104.3",
+      "name": "knb-lter-hbr.104.3",
+      "package": "knb-lter-hbr.104.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "hbef_faults.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.140.3",
+      "name": "Foliar Ca, Sr and 87Sr/86Sr measurements on Watershed 1     at the Hubbard Brook Experimental Forest, 1999 -     present",
+      "package": "knb-lter-hbr.140.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Potentiality"
+      ],
+      "files": [
+        "w1folisotopes"
+      ],
+      "abstract": "This dataset includes ICP-OES analyses of Ca and Sr       concentration and thermal ionization mass spectrometry       analyses of 87Sr/86Sr ratios for annual samples of Watershed       1 understory foliage. Additional foliar elements were       analysed and are included in the data table....",
+      "keywords": [
+        "calcium",
+        "ecosystems",
+        "foliage",
+        "forests",
+        "HBEF Watershed 1"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.56.13",
+      "name": "Hubbard Brook Experimental Forest: Wind Speed and Wind Direction Measurements, 1965 - ongoing",
+      "package": "knb-lter-hbr.56.13",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF_wind_daily_1965-1973",
+        "HBEF_wind_daily_1981-2025"
+      ],
+      "abstract": "Wind data have been measured by an anemometer mounted 3 m above the ground at Hubbard Brook Experimental Forest Headquarters since 1965. Prior to 1981, every mile of wind movement caused a tick mark on a strip-chart recorder, and wind direction as N, S, E, W, or a combination, was recorded continuou...",
+      "keywords": [
+        "ecosystems",
+        "forests",
+        "watersheds",
+        "climate",
+        "weather"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.306.1",
+      "name": "knb-lter-hbr.306.1",
+      "package": "knb-lter-hbr.306.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "LogSensorLayoutDiagram",
+        "frankenlog_data_hbef"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.242.1",
+      "name": "knb-lter-hbr.242.1",
+      "package": "knb-lter-hbr.242.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF_Window_trap_beetle_data_1973-1977_2015-2017"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.29.6",
+      "name": "Forest Inventory of a Northern Hardwood Forest:     Watershed 6 1965, Hubbard Brook Experimental Forest",
+      "package": "knb-lter-hbr.29.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "w6_1965shrb",
+        "w6_1965veg",
+        "w6_1965sap"
+      ],
+      "abstract": "Forest inventory surveys were initiated in 1965,       repeated in 1977, and repeated at 5 year intervals after       that. This is the initial data set and was collected in       summer of 1965. The inventory consists of a total inventory       of all trees >= 1.5 cm diameter-at-breast-height (dbh)...",
+      "keywords": [
+        "biomass",
+        "diameter breast height",
+        "forests",
+        "HBEF Watershed 6",
+        "HBR"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.163.1",
+      "name": "knb-lter-hbr.163.1",
+      "package": "knb-lter-hbr.163.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HBEF_Valleywide_soilmin"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.223.1",
+      "name": "knb-lter-hbr.223.1",
+      "package": "knb-lter-hbr.223.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Dynamics"
+      ],
+      "files": [
+        "water isotope samples from W3"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.100.5",
+      "name": "Hubbard Brook Experimental Forest Rain Gages: GIS Shapefile",
+      "package": "knb-lter-hbr.100.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "hbef_raingage.zip"
+      ],
+      "abstract": "These data replace an earlier GIS coverage. Locations have been updated with Trimble GeoXT. Data distributed as shapefile in Coordinate system EPSG:26919 - NAD83 / UTM zone 19N...",
+      "keywords": [
+        "rain gages",
+        "US Forest Service",
+        "weather stations",
+        "Hubbard Brook",
+        "New Hampshire"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.240.2",
+      "name": "Forest Inventory of a Calcium Amended Northern Hardwood Forest: Watershed 1, 2016, Hubbard Brook Experimental Forest",
+      "package": "knb-lter-hbr.240.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "W1 Vegetation Inventory 2016"
+      ],
+      "abstract": "In order to evaluate the role of Ca supply in regulating the structure   and function of base-poor forest and aquatic ecosystems, the Ca   content of soil was increased through the application of wollastonite   (CaSiO3) in October 1999. Forest inventory surveys were initiated in   1996 and repeated ...",
+      "keywords": [
+        "HBEF Watershed 6",
+        "HBR",
+        "Hubbard Brook LTER",
+        "biomass",
+        "calcium"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.48.6",
+      "name": "Fine root production and mortality from minirhizotrons     at the Hubbard Brook Experimental Forest",
+      "package": "knb-lter-hbr.48.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "fineroots"
+      ],
+      "abstract": "This data set reports observations of fine root growth,       mortality and lifespan in the mature forest. The lifespan       data can be combined with fine root biomass data to estimate       fine root production in the forests (Fahey et al. 2005). This       data set was from reference plots for a...",
+      "keywords": [
+        "HBEF Snow Removal       Study",
+        "HBR",
+        "Hubbard Brook LTER",
+        "root",
+        "tree"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.17.12",
+      "name": "knb-lter-hbr.17.12",
+      "package": "knb-lter-hbr.17.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "ws3_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.23.12",
+      "name": "Hubbard Brook Experimental Forest: Chemistry of Precipitation \u2013 Monthly Fluxes, Watershed 9, 1995 - ongoing",
+      "package": "knb-lter-hbr.23.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ws9_precip_monthly_flux_gHa"
+      ],
+      "abstract": "These data are monthly fluxes of solutes in precipitation collected at the Hubbard Brook Experimental Forest and are a part of the Hubbard Brook Watershed Ecosystem Record (HBWatER), which is a long-term record of stream and precipitation chemistry and volume. The solute fluxes in precipitation are ...",
+      "keywords": [
+        "HBR",
+        "Hubbard Brook LTER",
+        "Hubbard Brook Experimental Forest",
+        "Hubbard Brook Ecosystem Study",
+        "HBES"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.144.3",
+      "name": "knb-lter-hbr.144.3",
+      "package": "knb-lter-hbr.144.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HubbardBrook_SalamanderCaptureRecapture",
+        "HubbardBrook_SalamanderSurveyCovariates"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.80.7",
+      "name": "knb-lter-hbr.80.7",
+      "package": "knb-lter-hbr.80.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "freezedat"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.369.1",
+      "name": "Estimates of productivity and multiple measures of biodiversity at Bartlett and Hubbard Brook Experimental Forests",
+      "package": "knb-lter-hbr.369.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "BEFandHBEF_Biodiversity_Productivity"
+      ],
+      "abstract": "In ecosystems dominated by grasses and other small-statured plants, biodiversity and productivity have generally been found to be positively correlated. However, studies in forested ecosystems have found mixed results. Biodiversity in forests has typically been characterized using indices of species...",
+      "keywords": [
+        "abundance",
+        "basal area",
+        "biodiversity",
+        "canopies",
+        "disturbance"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.246.1",
+      "name": "knb-lter-hbr.246.1",
+      "package": "knb-lter-hbr.246.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF Ice Storm Gross Rate Data.csv"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.42.9",
+      "name": "knb-lter-hbr.42.9",
+      "package": "knb-lter-hbr.42.9",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "birdArea_vegInventory_1981"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.121.5",
+      "name": "knb-lter-hbr.121.5",
+      "package": "knb-lter-hbr.121.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "valley_soil_depths"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.346.1",
+      "name": "knb-lter-hbr.346.1",
+      "package": "knb-lter-hbr.346.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HBEF_droughtnet_root_ingrowth",
+        "HB_DroughtNet_root_ingrowth_overview"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.439.1",
+      "name": "knb-lter-hbr.439.1",
+      "package": "knb-lter-hbr.439.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "caterpillars_geometrid_vs_other.v07",
+        "Leps_Fig2.v19",
+        "Leps_Fig1.v19",
+        "Sunrise&Sunset_HBEF.v06",
+        "HB_thermalSums_WS1_v07"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.344.2",
+      "name": "knb-lter-hbr.344.2",
+      "package": "knb-lter-hbr.344.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Emergence"
+      ],
+      "files": [
+        "MELNHE_experimentalDesign",
+        "MELNHE_plot_characteristics"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.161.4",
+      "name": "knb-lter-hbr.161.4",
+      "package": "knb-lter-hbr.161.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "W3_Well_Information",
+        "HBEF_W3_GroundwaterLevels"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.263.1",
+      "name": "knb-lter-hbr.263.1",
+      "package": "knb-lter-hbr.263.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF_ISE_Caterpillars"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.327.1",
+      "name": "knb-lter-hbr.327.1",
+      "package": "knb-lter-hbr.327.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF_W5_Location",
+        "w5_grid_elevations",
+        "HBEF_W5_GridPlots",
+        "w5_edge_plots"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.123.6",
+      "name": "knb-lter-hbr.123.6",
+      "package": "knb-lter-hbr.123.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "valley_soil_chem"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.84.6",
+      "name": "knb-lter-hbr.84.6",
+      "package": "knb-lter-hbr.84.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "mlake-chm"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.138.14",
+      "name": "knb-lter-hbr.138.14",
+      "package": "knb-lter-hbr.138.14",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "W1Lysim_HB1996-2025",
+        "HB_lys_stream_locations_w1_w6_w5_csv",
+        "HB_lys_stream_locations_w1_w6_w5_shapefile"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.16.12",
+      "name": "knb-lter-hbr.16.12",
+      "package": "knb-lter-hbr.16.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ws2_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.22.12",
+      "name": "knb-lter-hbr.22.12",
+      "package": "knb-lter-hbr.22.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ws8_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.92.3",
+      "name": "knb-lter-hbr.92.3",
+      "package": "knb-lter-hbr.92.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hbef_cont10.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.373.1",
+      "name": "knb-lter-hbr.373.1",
+      "package": "knb-lter-hbr.373.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "Chronosequence_biomass_Nash",
+        "chronosequence_cwd",
+        "chronosequence_tree_inventory_2004",
+        "chronosequence_cwd_density",
+        "chronosequence_tree_inventory_2021"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.2.15",
+      "name": "knb-lter-hbr.2.15",
+      "package": "knb-lter-hbr.2.15",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF_DailyStreamflow"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.198.2",
+      "name": "knb-lter-hbr.198.2",
+      "package": "knb-lter-hbr.198.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "Resin strip available nitrogen"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.406.1",
+      "name": "knb-lter-hbr.406.1",
+      "package": "knb-lter-hbr.406.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "hbef_total_reach_census",
+        "HBEF_full_reach_carbon_clean",
+        "hbef_forest_r",
+        "stream_profile",
+        "HBEF_ADK_statistical_comparison_clean"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.175.2",
+      "name": "knb-lter-hbr.175.2",
+      "package": "knb-lter-hbr.175.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Structure"
+      ],
+      "files": [
+        "ise_veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.192.2",
+      "name": "knb-lter-hbr.192.2",
+      "package": "knb-lter-hbr.192.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Potentiality"
+      ],
+      "files": [
+        "ccase_saplings_herbivory"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.379.1",
+      "name": "knb-lter-hbr.379.1",
+      "package": "knb-lter-hbr.379.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Emergence"
+      ],
+      "files": [
+        "sample-RM-C4-1NP-litter",
+        "MELNHE_LitterPhotos",
+        "MELNHE_Litter_Photo_list"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.98.3",
+      "name": "knb-lter-hbr.98.3",
+      "package": "knb-lter-hbr.98.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "hbef_10mdem.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.256.1",
+      "name": "knb-lter-hbr.256.1",
+      "package": "knb-lter-hbr.256.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ISE_root_ingrowth_2016-2018"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.298.4",
+      "name": "knb-lter-hbr.298.4",
+      "package": "knb-lter-hbr.298.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF Annual Seed data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.131.5",
+      "name": "knb-lter-hbr.131.5",
+      "package": "knb-lter-hbr.131.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "BTBW_predator_counts_1997-2021"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.212.1",
+      "name": "knb-lter-hbr.212.1",
+      "package": "knb-lter-hbr.212.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "5 m Upslope Accumlated Area (UAA)",
+        "5 m Topographic Position Index (TPI) (100 m)",
+        "5 m Maximum Slope (%)",
+        "5 m Topographic Wetness Index (TWId)"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.33.7",
+      "name": "knb-lter-hbr.33.7",
+      "package": "knb-lter-hbr.33.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "w6_1992veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.277.11",
+      "name": "knb-lter-hbr.277.11",
+      "package": "knb-lter-hbr.277.11",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "Rain Gage 19 15-min precipitation",
+        "Rain gage info",
+        "Rain Gage 2 15-min precipitation",
+        "Rain Gage 17 15-min precipitation",
+        "Rain Gage 9 15-min precipitation"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.442.1",
+      "name": "knb-lter-hbr.442.1",
+      "package": "knb-lter-hbr.442.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBR_miniDOT_20230823",
+        "HBR_HOBO_20230823"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.354.2",
+      "name": "knb-lter-hbr.354.2",
+      "package": "knb-lter-hbr.354.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Mycorrhizal_Depth",
+        "shallow_combined",
+        "rootlength_data",
+        "rootlengthcomb",
+        "colonization_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.210.2",
+      "name": "knb-lter-hbr.210.2",
+      "package": "knb-lter-hbr.210.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Potentiality"
+      ],
+      "files": [
+        "reconaissance",
+        "horizon",
+        "HubbardBrookExperimentalForest_SoilProfileMethods_1995-2022",
+        "pedon"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.171.4",
+      "name": "knb-lter-hbr.171.4",
+      "package": "knb-lter-hbr.171.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "ccase_veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.39.7",
+      "name": "knb-lter-hbr.39.7",
+      "package": "knb-lter-hbr.39.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "w5_1999veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.273.1",
+      "name": "knb-lter-hbr.273.1",
+      "package": "knb-lter-hbr.273.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "hourly_soil_oxygen_moisture_temperature_2018_2019"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.218.1",
+      "name": "knb-lter-hbr.218.1",
+      "package": "knb-lter-hbr.218.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Utopia"
+      ],
+      "files": [
+        "NUPERT foliar metabolites",
+        "NUPERT sapwood metabolites"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.423.1",
+      "name": "knb-lter-hbr.423.1",
+      "package": "knb-lter-hbr.423.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HBNO_Litterbox Exper_Master"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.150.2",
+      "name": "knb-lter-hbr.150.2",
+      "package": "knb-lter-hbr.150.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Utopia"
+      ],
+      "files": [
+        "w62012veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.448.1",
+      "name": "knb-lter-hbr.448.1",
+      "package": "knb-lter-hbr.448.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "W6_VegetationInventory"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.57.12",
+      "name": "knb-lter-hbr.57.12",
+      "package": "knb-lter-hbr.57.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF_daily_VP_1966-1973",
+        "HBEF_daily_VP"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.333.1",
+      "name": "knb-lter-hbr.333.1",
+      "package": "knb-lter-hbr.333.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Structure"
+      ],
+      "files": [
+        "HBEF_valleywide_HOBO_locations",
+        "HBEF_HOBO_Master_2013-2020",
+        "Instructions_for_downloading_HOBO_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.290.1",
+      "name": "knb-lter-hbr.290.1",
+      "package": "knb-lter-hbr.290.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HubbardBrookObservedReptiles"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.339.1",
+      "name": "knb-lter-hbr.339.1",
+      "package": "knb-lter-hbr.339.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF_droughtnet_VWC",
+        "HBEF_droughtnet_Tsoil",
+        "HB_DroughtNet_soil_sensor_overview",
+        "HBEF_droughtnet_WaterPotential"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.37.7",
+      "name": "knb-lter-hbr.37.7",
+      "package": "knb-lter-hbr.37.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Structure"
+      ],
+      "files": [
+        "w5_1990veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.352.1",
+      "name": "knb-lter-hbr.352.1",
+      "package": "knb-lter-hbr.352.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ISE_hemi_photo_preview",
+        "ISE_hemi_photo",
+        "ISE_hemi_photo_manifest"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.446.1",
+      "name": "knb-lter-hbr.446.1",
+      "package": "knb-lter-hbr.446.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "W1_VegetationInventory"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.114.3",
+      "name": "knb-lter-hbr.114.3",
+      "package": "knb-lter-hbr.114.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "wmnf_boundary.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.392.2",
+      "name": "knb-lter-hbr.392.2",
+      "package": "knb-lter-hbr.392.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HBNO_leaf_NC",
+        "HBNO_FIG1_MAP"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.252.1",
+      "name": "knb-lter-hbr.252.1",
+      "package": "knb-lter-hbr.252.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Emergence"
+      ],
+      "files": [
+        "HBEF_FreezeStudy_MicrobialBiomass"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.316.1",
+      "name": "knb-lter-hbr.316.1",
+      "package": "knb-lter-hbr.316.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Structure"
+      ],
+      "files": [
+        "CCASE_Foliar_Metabolite_Archives_Data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.196.2",
+      "name": "knb-lter-hbr.196.2",
+      "package": "knb-lter-hbr.196.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "Hubbard Brook CCASE Microbial Biomass and Activity"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.239.1",
+      "name": "knb-lter-hbr.239.1",
+      "package": "knb-lter-hbr.239.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Potentiality"
+      ],
+      "files": [
+        "W6 Vegetation Inventory 2017"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.408.1",
+      "name": "knb-lter-hbr.408.1",
+      "package": "knb-lter-hbr.408.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Structure"
+      ],
+      "files": [
+        "Hubbard Brook Bird Recording Manifest"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.233.1",
+      "name": "knb-lter-hbr.233.1",
+      "package": "knb-lter-hbr.233.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "CCASE_FineRootDamage"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.96.3",
+      "name": "knb-lter-hbr.96.3",
+      "package": "knb-lter-hbr.96.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "hbef_soilsadj.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.258.1",
+      "name": "knb-lter-hbr.258.1",
+      "package": "knb-lter-hbr.258.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Tree_info_MELNHE_sugar_maple_crown",
+        "QA_data_MELNHE_sugar_maple_crown",
+        "analysis_for_MELNHE_sugar_maple_crown_depth R script",
+        "figures_for_MELNHE_sugar_maple_crown_depth",
+        "MELNHE_SugarMapleCrownDepthcsv"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.50.10",
+      "name": "knb-lter-hbr.50.10",
+      "package": "knb-lter-hbr.50.10",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "CWD_1996_2024_wts"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.143.3",
+      "name": "knb-lter-hbr.143.3",
+      "package": "knb-lter-hbr.143.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "w1_2011veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.185.2",
+      "name": "knb-lter-hbr.185.2",
+      "package": "knb-lter-hbr.185.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "bb_leaf_si"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.268.3",
+      "name": "knb-lter-hbr.268.3",
+      "package": "knb-lter-hbr.268.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "BirdAudioSites",
+        "Symes_SampleVocalizationsFiles",
+        "BirdAudioFileManifest",
+        "Symes_AmbientSoundFiles",
+        "Symes_SampleVocalizationsManifest"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.168.2",
+      "name": "knb-lter-hbr.168.2",
+      "package": "knb-lter-hbr.168.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "moose_vegbiomass",
+        "moose_soil",
+        "moose_lys_means"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.383.1",
+      "name": "knb-lter-hbr.383.1",
+      "package": "knb-lter-hbr.383.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hbwtr_chla_mgm2_sumnds2021",
+        "hbwtr_chla_mgm2_sumnds2019",
+        "hbwtr_chla_mgm2_lightgap2019",
+        "Detailed Methods",
+        "hbwtr_chla_mgm2_sprnds2021"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.19.12",
+      "name": "knb-lter-hbr.19.12",
+      "package": "knb-lter-hbr.19.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ws5_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.122.4",
+      "name": "knb-lter-hbr.122.4",
+      "package": "knb-lter-hbr.122.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Structure"
+      ],
+      "files": [
+        "valley_soil_min_ff"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.220.1",
+      "name": "knb-lter-hbr.220.1",
+      "package": "knb-lter-hbr.220.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "reciprocal transplant litter decomposition data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.364.1",
+      "name": "knb-lter-hbr.364.1",
+      "package": "knb-lter-hbr.364.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "WS3_Ksat"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.11.19",
+      "name": "knb-lter-hbr.11.19",
+      "package": "knb-lter-hbr.11.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ws9_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.320.1",
+      "name": "knb-lter-hbr.320.1",
+      "package": "knb-lter-hbr.320.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "Marinosetal2018-EsnT-LongitudinalSurveys"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.264.1",
+      "name": "knb-lter-hbr.264.1",
+      "package": "knb-lter-hbr.264.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF ISE bird point counts"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.5.19",
+      "name": "knb-lter-hbr.5.19",
+      "package": "knb-lter-hbr.5.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ws3_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.83.6",
+      "name": "knb-lter-hbr.83.6",
+      "package": "knb-lter-hbr.83.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "mlake-tpro"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.434.1",
+      "name": "knb-lter-hbr.434.1",
+      "package": "knb-lter-hbr.434.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "SoilMoistureSensorLocations",
+        "Stream",
+        "Upper",
+        "Ridgetop",
+        "Lower"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.205.1",
+      "name": "knb-lter-hbr.205.1",
+      "package": "knb-lter-hbr.205.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "N2 and N2O Recovery",
+        "Ambient N2 and N20"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.1.18",
+      "name": "knb-lter-hbr.1.18",
+      "package": "knb-lter-hbr.1.18",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Utopia"
+      ],
+      "files": [
+        "w1_stmflow_5min",
+        "w3_stmflow_1957-2012",
+        "w6_stmflow_5min",
+        "w8_stmflow_1968-2012",
+        "w2_stmflow_1957-2012"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.107.3",
+      "name": "knb-lter-hbr.107.3",
+      "package": "knb-lter-hbr.107.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "hbef_weirs.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.289.1",
+      "name": "knb-lter-hbr.289.1",
+      "package": "knb-lter-hbr.289.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HubbardBrook_SpecTIR_georegistered_reflectance_images_20130222",
+        "HubbardBrook_SpecTIR_FlightlineQuicklook_20130222"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.345.1",
+      "name": "knb-lter-hbr.345.1",
+      "package": "knb-lter-hbr.345.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Lichen_grazing_2016"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.201.1",
+      "name": "knb-lter-hbr.201.1",
+      "package": "knb-lter-hbr.201.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Structure"
+      ],
+      "files": [
+        "fish distribution"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.103.4",
+      "name": "knb-lter-hbr.103.4",
+      "package": "knb-lter-hbr.103.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "hbef_bedrock.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.149.2",
+      "name": "knb-lter-hbr.149.2",
+      "package": "knb-lter-hbr.149.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "w62007veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.141.1",
+      "name": "knb-lter-hbr.141.1",
+      "package": "knb-lter-hbr.141.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "WhittakerAllometry"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.41.7",
+      "name": "knb-lter-hbr.41.7",
+      "package": "knb-lter-hbr.41.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "w1_2001veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.128.5",
+      "name": "knb-lter-hbr.128.5",
+      "package": "knb-lter-hbr.128.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "BTBW_capture_history_1980-2021",
+        "BTBW_measurements"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.324.1",
+      "name": "knb-lter-hbr.324.1",
+      "package": "knb-lter-hbr.324.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Structure"
+      ],
+      "files": [
+        "HBEF_WS5_stem_origin"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.260.1",
+      "name": "knb-lter-hbr.260.1",
+      "package": "knb-lter-hbr.260.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "CCASE Photosynthesis"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.287.1",
+      "name": "knb-lter-hbr.287.1",
+      "package": "knb-lter-hbr.287.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HubbardBrook_SpecTIR_FlightlineQuicklook_20120817",
+        "HubbardBrook_SpecTIR_georegistered_reflectance_images_20120817"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.87.6",
+      "name": "knb-lter-hbr.87.6",
+      "package": "knb-lter-hbr.87.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Potentiality"
+      ],
+      "files": [
+        "ml-ne"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.116.14",
+      "name": "knb-lter-hbr.116.14",
+      "package": "knb-lter-hbr.116.14",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HubbardBrook_TraceGas_Watershed1_BearBrook_2002-2024",
+        "Tracegas_locations"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.387.1",
+      "name": "knb-lter-hbr.387.1",
+      "package": "knb-lter-hbr.387.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Marinos-Field_Data_2015_2016"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.126.4",
+      "name": "knb-lter-hbr.126.4",
+      "package": "knb-lter-hbr.126.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "gastropods"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.224.1",
+      "name": "knb-lter-hbr.224.1",
+      "package": "knb-lter-hbr.224.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Nocturnal Cold-Air Pool Study Table5, 2015",
+        "Nocturnal Cold-Air Pool Study Table1, 2015",
+        "Nocturnal Cold-Air Pool Study Table4, 2015",
+        "Nocturnal Cold-Air Pool Study Table2, 2015",
+        "Nocturnal Cold-Air Pool Study Talbe3, 2015"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.368.2",
+      "name": "knb-lter-hbr.368.2",
+      "package": "knb-lter-hbr.368.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HOBORAW",
+        "HOBORAW_post",
+        "Taxa_specific",
+        "Malaise",
+        "LightIntensity"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.166.2",
+      "name": "knb-lter-hbr.166.2",
+      "package": "knb-lter-hbr.166.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "valley_stream_chem"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.415.1",
+      "name": "knb-lter-hbr.415.1",
+      "package": "knb-lter-hbr.415.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "common_garden_sdlgs",
+        "sweep_forestSoc",
+        "ACSA_samaras_2019",
+        "2020_germinant_counts",
+        "marked_sdlg_site_EDI"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.207.3",
+      "name": "knb-lter-hbr.207.3",
+      "package": "knb-lter-hbr.207.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Annual CH4 Flux",
+        "Monthly CH4 Flux"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.24.8",
+      "name": "knb-lter-hbr.24.8",
+      "package": "knb-lter-hbr.24.8",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "rg22-pcp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.245.1",
+      "name": "knb-lter-hbr.245.1",
+      "package": "knb-lter-hbr.245.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF Ice Storm Trace Gas Data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.301.1",
+      "name": "knb-lter-hbr.301.1",
+      "package": "knb-lter-hbr.301.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "Horizon thickness",
+        "1983 Pit face maps",
+        "1991 Pit face maps",
+        "1986 Pit face maps",
+        "1998 Pit face maps"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.30.7",
+      "name": "knb-lter-hbr.30.7",
+      "package": "knb-lter-hbr.30.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "w6_1977veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.127.15",
+      "name": "knb-lter-hbr.127.15",
+      "package": "knb-lter-hbr.127.15",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "W6Long_StrmChem_HB1982-2025",
+        "HB_lys_stream_locations_w1_w6_w5_csv",
+        "HB_lys_stream_locations_w1_w6_w5_shapefile"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.317.3",
+      "name": "knb-lter-hbr.317.3",
+      "package": "knb-lter-hbr.317.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "W3-subsurface-water-chemistry"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.295.2",
+      "name": "knb-lter-hbr.295.2",
+      "package": "knb-lter-hbr.295.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HBEF_ThroughfallPlots_LAI_1994-2019"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.178.3",
+      "name": "knb-lter-hbr.178.3",
+      "package": "knb-lter-hbr.178.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Valleywide_bird_census"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.113.3",
+      "name": "knb-lter-hbr.113.3",
+      "package": "knb-lter-hbr.113.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "hbef_nlcd_92.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.51.16",
+      "name": "knb-lter-hbr.51.16",
+      "package": "knb-lter-hbr.51.16",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HBEF_Phenology"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.270.1",
+      "name": "knb-lter-hbr.270.1",
+      "package": "knb-lter-hbr.270.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "spray_volume_chemistry_ISE"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.334.1",
+      "name": "knb-lter-hbr.334.1",
+      "package": "knb-lter-hbr.334.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "Feeding_with_TrialExp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.172.4",
+      "name": "knb-lter-hbr.172.4",
+      "package": "knb-lter-hbr.172.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "HubbardBrook_ForestFloor_CN_W6",
+        "HubbardBrook_ForestFloor_MetPool_W6",
+        "HubbardBrook_ForestFloor_SoilMass_W6",
+        "HubbardBrook_ForestFloor_MetConc_W6",
+        "HubbardBrook_ForestFloor_SiteInfo_W6"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.297.1",
+      "name": "knb-lter-hbr.297.1",
+      "package": "knb-lter-hbr.297.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Temperature_Difference_Nutrient_Addition_Hardwood_Trees"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.153.2",
+      "name": "knb-lter-hbr.153.2",
+      "package": "knb-lter-hbr.153.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "birdarea_foliarN"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.420.1",
+      "name": "knb-lter-hbr.420.1",
+      "package": "knb-lter-hbr.420.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Groffman_HBNO_Insitu_Nmin_Nit_for_EDI"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.14.21",
+      "name": "knb-lter-hbr.14.21",
+      "package": "knb-lter-hbr.14.21",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Watershed information",
+        "Daily Watershed Precipitation",
+        "idw_weights_nfw",
+        "thiessen_weights",
+        "idw_weights_new_sfw"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.397.1",
+      "name": "knb-lter-hbr.397.1",
+      "package": "knb-lter-hbr.397.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Utopia"
+      ],
+      "files": [
+        "litter_decomp_chemistry",
+        "analysis code",
+        "mesh_mix_litter_decomposition"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.91.3",
+      "name": "knb-lter-hbr.91.3",
+      "package": "knb-lter-hbr.91.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Dynamics"
+      ],
+      "files": [
+        "hbef_contusgs.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.234.1",
+      "name": "knb-lter-hbr.234.1",
+      "package": "knb-lter-hbr.234.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "CCASE_RootNitrogenUptakeCapacity"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.405.1",
+      "name": "knb-lter-hbr.405.1",
+      "package": "knb-lter-hbr.405.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "FigureS1_NMDS",
+        "Species_matrix",
+        "Order_matrix",
+        "Order_FOO",
+        "Figure2_FamilyFOO"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.157.3",
+      "name": "knb-lter-hbr.157.3",
+      "package": "knb-lter-hbr.157.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "w1_acsa_seed_myco",
+        "w1_acsa_seed_biomass",
+        "w1_acsa_seed_chl",
+        "w1_acsa_seed_physical"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.372.2",
+      "name": "knb-lter-hbr.372.2",
+      "package": "knb-lter-hbr.372.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "stomatal_density_sm_yb_2021-22",
+        "PILOT_MELNHE_stomatal_density_length_SM_20x",
+        "MELNHE_stomatal_density_2021-22_raw",
+        "PILOT_MELNHE_stomatal_density_length_YB_10x",
+        "stom_len_long_hb_jbm"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.311.1",
+      "name": "knb-lter-hbr.311.1",
+      "package": "knb-lter-hbr.311.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "HOBO_light_raw_datafiles",
+        "HOBO_light_2018-2021"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.255.1",
+      "name": "knb-lter-hbr.255.1",
+      "package": "knb-lter-hbr.255.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "throughfall_volume_chemistry_ISE"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.191.2",
+      "name": "knb-lter-hbr.191.2",
+      "package": "knb-lter-hbr.191.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "ccase_saplings_growth"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.399.1",
+      "name": "knb-lter-hbr.399.1",
+      "package": "knb-lter-hbr.399.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Birdline10yrinterval_1981_2021"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.119.5",
+      "name": "knb-lter-hbr.119.5",
+      "package": "knb-lter-hbr.119.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "sulfur_isotopes"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.195.2",
+      "name": "knb-lter-hbr.195.2",
+      "package": "knb-lter-hbr.195.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "ccase_saplings_phenology"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.376.2",
+      "name": "knb-lter-hbr.376.2",
+      "package": "knb-lter-hbr.376.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "Oak_Seedling_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.251.1",
+      "name": "knb-lter-hbr.251.1",
+      "package": "knb-lter-hbr.251.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HBEF_FreezePlot_TraceGas"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.336.4",
+      "name": "knb-lter-hbr.336.4",
+      "package": "knb-lter-hbr.336.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "STA14 15-min RH",
+        "STA1 15-min RH",
+        "STA6 15-min RH",
+        "STA23 15-min RH",
+        "HQ 15-min RH"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.53.5",
+      "name": "knb-lter-hbr.53.5",
+      "package": "knb-lter-hbr.53.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Utopia"
+      ],
+      "files": [
+        "hbw5"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.18.12",
+      "name": "knb-lter-hbr.18.12",
+      "package": "knb-lter-hbr.18.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "ws4_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.374.1",
+      "name": "knb-lter-hbr.374.1",
+      "package": "knb-lter-hbr.374.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "MELNHE_Roots"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.95.3",
+      "name": "knb-lter-hbr.95.3",
+      "package": "knb-lter-hbr.95.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "hbef_hydro.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.10.19",
+      "name": "knb-lter-hbr.10.19",
+      "package": "knb-lter-hbr.10.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ws8_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.353.2",
+      "name": "knb-lter-hbr.353.2",
+      "package": "knb-lter-hbr.353.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "ICP Concentrations of Salt Exchangeable Cations in Soil Solution",
+        "Converted Soil Cation Concentration",
+        "Sample Preparation for Salt Exchangeable Cations"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.82.11",
+      "name": "knb-lter-hbr.82.11",
+      "package": "knb-lter-hbr.82.11",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF_Lepidoptera_1986-2022",
+        "HBEF_Leaves_1986-2021",
+        "lepidoptera_WMNFsites",
+        "spatial_data_HB"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.4.19",
+      "name": "knb-lter-hbr.4.19",
+      "package": "knb-lter-hbr.4.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "ws2_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.424.1",
+      "name": "knb-lter-hbr.424.1",
+      "package": "knb-lter-hbr.424.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "number_of_baskets",
+        "chronosequence_litter_1993-96_basket",
+        "chronosequence_litter_2005-06_basket_unsorted",
+        "Raw Litterfall for August 1995",
+        "chronosequence_litter_2003-04_basket"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.176.3",
+      "name": "knb-lter-hbr.176.3",
+      "package": "knb-lter-hbr.176.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HubbardBrook_ForestFloor_SoilChem_W1",
+        "HubbardBrook_ForestFloor_SiteInfo_W1",
+        "HubbardBrook_ForestFloor_PlotLoc_W1"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.215.1",
+      "name": "knb-lter-hbr.215.1",
+      "package": "knb-lter-hbr.215.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "USFS Durham Lab MDL LOQ, 2010 - present"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.351.1",
+      "name": "knb-lter-hbr.351.1",
+      "package": "knb-lter-hbr.351.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Utopia"
+      ],
+      "files": [
+        "CCASE_fungal_enzyme_data_12_20",
+        "CCASE_sample_metadata",
+        "CCASE_fungal_growth_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.34.7",
+      "name": "knb-lter-hbr.34.7",
+      "package": "knb-lter-hbr.34.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "w6_1997veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.313.4",
+      "name": "knb-lter-hbr.313.4",
+      "package": "knb-lter-hbr.313.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Potentiality"
+      ],
+      "files": [
+        "MELNHE_FoliarChemistry_QC-data",
+        "MELNHE_FoliarChemistry_2008to2016_ver2",
+        "MELNHE 2021-22 Foliar Chemistry QC",
+        "MELNHE_damaged_foliage_chemistry_comparison_2021",
+        "MELNHE_FoliarChemistryTraits_2021to2022"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.155.1",
+      "name": "knb-lter-hbr.155.1",
+      "package": "knb-lter-hbr.155.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Utopia"
+      ],
+      "files": [
+        "root_biomass_W1_BB"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.186.1",
+      "name": "knb-lter-hbr.186.1",
+      "package": "knb-lter-hbr.186.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "MELNHE_Litterchem2009_2018"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.284.3",
+      "name": "knb-lter-hbr.284.3",
+      "package": "knb-lter-hbr.284.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HubbardBrookObservedMammals"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.169.2",
+      "name": "knb-lter-hbr.169.2",
+      "package": "knb-lter-hbr.169.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "droughtnet_veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.382.1",
+      "name": "knb-lter-hbr.382.1",
+      "package": "knb-lter-hbr.382.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "2_PlantTraitsStuder2021",
+        "1_VegetationMatrixStuder2021",
+        "3_PlotLocations_type_Vegetation_Studer"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.62.21",
+      "name": "knb-lter-hbr.62.21",
+      "package": "knb-lter-hbr.62.21",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "W6Lysim_HB1984-2025",
+        "HB_lys_stream_locations_w1_w6_w5_csv",
+        "HB_lys_stream_locations_w1_w6_w5_shapefile"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.129.4",
+      "name": "knb-lter-hbr.129.4",
+      "package": "knb-lter-hbr.129.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "btbw_ummales",
+        "btbw_nest"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.269.3",
+      "name": "knb-lter-hbr.269.3",
+      "package": "knb-lter-hbr.269.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Utopia"
+      ],
+      "files": [
+        "MELNHE_soil_respiration"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.248.2",
+      "name": "knb-lter-hbr.248.2",
+      "package": "knb-lter-hbr.248.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality",
+        "Emergence"
+      ],
+      "files": [
+        "NH_VT_13C_18O_tree_rings"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.86.7",
+      "name": "knb-lter-hbr.86.7",
+      "package": "knb-lter-hbr.86.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ml-out"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.410.1",
+      "name": "knb-lter-hbr.410.1",
+      "package": "knb-lter-hbr.410.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HubbardBrook_SpeciesRichnessData",
+        "HubbardBrook_DiatomPlates",
+        "HubbardBrook_SpeciesList"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.142.3",
+      "name": "knb-lter-hbr.142.3",
+      "package": "knb-lter-hbr.142.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "w1_2006veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.380.2",
+      "name": "knb-lter-hbr.380.2",
+      "package": "knb-lter-hbr.380.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Utopia"
+      ],
+      "files": [
+        "prob_O_2024-02-21",
+        "prob_T_2024-02-21",
+        "prob_Bhs_2024-02-21",
+        "Spatial Soil Distribution Model - Users Guide and Methods",
+        "modelout2024-02-21"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.88.6",
+      "name": "knb-lter-hbr.88.6",
+      "package": "knb-lter-hbr.88.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ml-nw"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.118.10",
+      "name": "knb-lter-hbr.118.10",
+      "package": "knb-lter-hbr.118.10",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "iceDataMirrorLake"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.106.3",
+      "name": "knb-lter-hbr.106.3",
+      "package": "knb-lter-hbr.106.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "hbef_bedding.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.288.1",
+      "name": "knb-lter-hbr.288.1",
+      "package": "knb-lter-hbr.288.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HubbardBrook_SpecTIR_FlightlineQuicklook_20130309",
+        "HubbardBrook_SpecTIR_georegistered_reflectance_images_20130309"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.3.19",
+      "name": "knb-lter-hbr.3.19",
+      "package": "knb-lter-hbr.3.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "ws1_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.204.1",
+      "name": "knb-lter-hbr.204.1",
+      "package": "knb-lter-hbr.204.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "vegetation_mercury"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.282.1",
+      "name": "knb-lter-hbr.282.1",
+      "package": "knb-lter-hbr.282.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HB_Wildlife_2018_montage",
+        "HubbardBrookWildlifeRecords2018_manifest",
+        "HubbardBrookWildlifePhotos2018.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.44.7",
+      "name": "knb-lter-hbr.44.7",
+      "package": "knb-lter-hbr.44.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "WW6 folChem"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.125.6",
+      "name": "knb-lter-hbr.125.6",
+      "package": "knb-lter-hbr.125.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HubbardBrook_ValleywideTreeInventory_1995-2005-2015",
+        "HubbardBrook_ValleywideInventory_PlotInfo",
+        "HubbardBrook_ValleywideInventoryProtocol_2005-2015",
+        "HubbardBrook_ValleywideSaplingInventory_1995",
+        "HubbardBrook_ValleywideInventoryProtocol_1995"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.265.1",
+      "name": "knb-lter-hbr.265.1",
+      "package": "knb-lter-hbr.265.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF ISE canopy cover"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.286.1",
+      "name": "knb-lter-hbr.286.1",
+      "package": "knb-lter-hbr.286.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HubbardBrookObservedFish"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.108.3",
+      "name": "knb-lter-hbr.108.3",
+      "package": "knb-lter-hbr.108.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "hbef_roads.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.325.1",
+      "name": "knb-lter-hbr.325.1",
+      "package": "knb-lter-hbr.325.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF_W4_TreeInventory",
+        "HBEF_W4_SaplingInventory"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.261.1",
+      "name": "knb-lter-hbr.261.1",
+      "package": "knb-lter-hbr.261.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Utopia"
+      ],
+      "files": [
+        "CCASE foliar N data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.184.3",
+      "name": "knb-lter-hbr.184.3",
+      "package": "knb-lter-hbr.184.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "LogDecompChem",
+        "w1_wood_decomp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.40.7",
+      "name": "knb-lter-hbr.40.7",
+      "package": "knb-lter-hbr.40.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "w1_1996veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.102.3",
+      "name": "knb-lter-hbr.102.3",
+      "package": "knb-lter-hbr.102.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hbef_bldgs.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.200.1",
+      "name": "knb-lter-hbr.200.1",
+      "package": "knb-lter-hbr.200.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "streamwood metrics"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.308.2",
+      "name": "knb-lter-hbr.308.2",
+      "package": "knb-lter-hbr.308.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBWaTER_stream_cameras_W1",
+        "HBWaTER_stream_cameras_W6",
+        "HBWaTER_stream_cameras_W9",
+        "HBWaTER_Stream_Camera_Manifest",
+        "HBWaTER_stream_cameras_W5"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.180.2",
+      "name": "knb-lter-hbr.180.2",
+      "package": "knb-lter-hbr.180.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF Bedrock Geology Map",
+        "Thornton Roadcut Geology Map"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.27.21",
+      "name": "knb-lter-hbr.27.21",
+      "package": "knb-lter-hbr.27.21",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Snowcourse",
+        "snowcourse info"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.65.7",
+      "name": "knb-lter-hbr.65.7",
+      "package": "knb-lter-hbr.65.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "stemp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.7.19",
+      "name": "knb-lter-hbr.7.19",
+      "package": "knb-lter-hbr.7.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "ws5_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.363.2",
+      "name": "knb-lter-hbr.363.2",
+      "package": "knb-lter-hbr.363.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Utopia"
+      ],
+      "files": [
+        "HBEF-W3_ShallowWellResin"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.244.1",
+      "name": "knb-lter-hbr.244.1",
+      "package": "knb-lter-hbr.244.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ISE_soil_respiration_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.300.1",
+      "name": "knb-lter-hbr.300.1",
+      "package": "knb-lter-hbr.300.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HBISE_PCL_All_2015-2020",
+        "ISElidar_filemanifest"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.414.1",
+      "name": "knb-lter-hbr.414.1",
+      "package": "knb-lter-hbr.414.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HBNO_Snowmelt_Experiment_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.167.2",
+      "name": "knb-lter-hbr.167.2",
+      "package": "knb-lter-hbr.167.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "W6stm_no3_2008"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.182.1",
+      "name": "knb-lter-hbr.182.1",
+      "package": "knb-lter-hbr.182.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Hbf-plot-spectra-n-cal",
+        "Hbf-nmap-color-ramp",
+        "Hbf-nmap-transparency",
+        "30m_HB_Nmap_graphic",
+        "Hbf-wholecanopy-n"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.25.6",
+      "name": "knb-lter-hbr.25.6",
+      "package": "knb-lter-hbr.25.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "through1",
+        "through2",
+        "through-samp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.302.2",
+      "name": "knb-lter-hbr.302.2",
+      "package": "knb-lter-hbr.302.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Exchangeable metals",
+        "Acid-extractable elements",
+        "Soil chemistry",
+        "Summary Site Information"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.225.1",
+      "name": "knb-lter-hbr.225.1",
+      "package": "knb-lter-hbr.225.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "MELNHE Soil Microbial Activity and Abundance, 2014"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.386.1",
+      "name": "knb-lter-hbr.386.1",
+      "package": "knb-lter-hbr.386.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "figure2",
+        "Fig2b",
+        "models-sex_ratio_BES",
+        "Fig1b",
+        "CI_model_nestl_mass_treatment_BES"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.173.3",
+      "name": "knb-lter-hbr.173.3",
+      "package": "knb-lter-hbr.173.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "DataTableDescriptions",
+        "Model_Output_Files",
+        "Climate_Input_Files"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.152.2",
+      "name": "knb-lter-hbr.152.2",
+      "package": "knb-lter-hbr.152.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "w5_2009veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.296.1",
+      "name": "knb-lter-hbr.296.1",
+      "package": "knb-lter-hbr.296.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HubbardBrookWeatherNotes_2010-2014",
+        "HubbardBrookWeatherNotes_1995-1999",
+        "HubbardBrookWeatherNotes_1990-1994",
+        "HubbardBrookWeatherNotes_2015-2019",
+        "HB_WeatherNotesExample.png"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.429.2",
+      "name": "knb-lter-hbr.429.2",
+      "package": "knb-lter-hbr.429.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "iNext_Format_eDNA",
+        "eDNA_Abun_Table",
+        "FR_Sporocarp_CodePub",
+        "PCR_Plate_Gel_Photos",
+        "FR_DADA2_PlusFilter_CodePub"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.390.3",
+      "name": "knb-lter-hbr.390.3",
+      "package": "knb-lter-hbr.390.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "10-ha plot reference points",
+        "Despot Code",
+        "Despot Mean Territory Size",
+        "Incremental Spatial Autocorrelation",
+        "Despot shapefiles"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.271.1",
+      "name": "knb-lter-hbr.271.1",
+      "package": "knb-lter-hbr.271.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "CCASE_Branch_Xylem_Water_Isotopes"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.335.1",
+      "name": "knb-lter-hbr.335.1",
+      "package": "knb-lter-hbr.335.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Potentiality"
+      ],
+      "files": [
+        "MELNHE_Sugar_Maple_Sap_Sweetness_and_Nutrients",
+        "MELNHE_Sugar_Maple_Foliar_Gas_Exchange_and_Nutrients"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.337.5",
+      "name": "Hubbard Brook Experimental Forest: 15 Minute Wind Speed and Direction Measurements, 2012 \u2013 ongoing",
+      "package": "knb-lter-hbr.337.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HQ_wind_15min",
+        "Kineo_wind_15min",
+        "STA1_wind_15min"
+      ],
+      "abstract": "Wind speed and direction have been recorded at 15-minute resolution by an R.M. Young company wind sensor at three locations within Hubbard Brook Experimental Forest since 2012. These data were gathered at the Hubbard Brook Experimental Forest in Woodstock, NH, which is operated and maintained by the...",
+      "keywords": [
+        "ecosystems",
+        "forests",
+        "watersheds",
+        "climate",
+        "weather"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.112.3",
+      "name": "knb-lter-hbr.112.3",
+      "package": "knb-lter-hbr.112.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "hbef_velleywideplots.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.67.26",
+      "name": "knb-lter-hbr.67.26",
+      "package": "knb-lter-hbr.67.26",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Potentiality"
+      ],
+      "files": [
+        "HubbardBrook_CalciumProject_MicrobialBiomass_1994-2025",
+        "microbialBiomassPlots"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.294.2",
+      "name": "knb-lter-hbr.294.2",
+      "package": "knb-lter-hbr.294.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF_BearBrook_LAI_1993-2019"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.31.7",
+      "name": "knb-lter-hbr.31.7",
+      "package": "knb-lter-hbr.31.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "w6_1982veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.6.19",
+      "name": "knb-lter-hbr.6.19",
+      "package": "knb-lter-hbr.6.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ws4_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.190.2",
+      "name": "knb-lter-hbr.190.2",
+      "package": "knb-lter-hbr.190.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ccase_saplings_foliar_nitrogen"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.35.8",
+      "name": "knb-lter-hbr.35.8",
+      "package": "knb-lter-hbr.35.8",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "w6_2002veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.254.1",
+      "name": "knb-lter-hbr.254.1",
+      "package": "knb-lter-hbr.254.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ISE_accretion_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.404.1",
+      "name": "knb-lter-hbr.404.1",
+      "package": "knb-lter-hbr.404.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "Litter_basket_label_key",
+        "MELNHE_litterfall_data_imputation_2024",
+        "sorted_imputed_2023_oct2024_edited",
+        "MELNHE_litterfall_2009_22"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.312.2",
+      "name": "knb-lter-hbr.312.2",
+      "package": "knb-lter-hbr.312.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ISE_lysimeter_data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.371.1",
+      "name": "knb-lter-hbr.371.1",
+      "package": "knb-lter-hbr.371.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HB_Salamander_Telemetry_CaptureRecapture",
+        "HB_Telemetry_Habitat",
+        "HB_Telemetry_SurveyCovariates",
+        "StreamReachLocations"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.235.1",
+      "name": "knb-lter-hbr.235.1",
+      "package": "knb-lter-hbr.235.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Potentiality"
+      ],
+      "files": [
+        "CCASE_SoilSolutionResinAvailableNitrogen"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.396.1",
+      "name": "knb-lter-hbr.396.1",
+      "package": "knb-lter-hbr.396.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "LAI_BEF_2004"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.90.4",
+      "name": "knb-lter-hbr.90.4",
+      "package": "knb-lter-hbr.90.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hbef_boundary.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.375.1",
+      "name": "knb-lter-hbr.375.1",
+      "package": "knb-lter-hbr.375.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Pitfall_ID_Slides",
+        "sample_information",
+        "morphospecies",
+        "Pitfall_spider_ID_Slides",
+        "spider_species"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.94.3",
+      "name": "knb-lter-hbr.94.3",
+      "package": "knb-lter-hbr.94.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hbef_wsheds.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.179.2",
+      "name": "knb-lter-hbr.179.2",
+      "package": "knb-lter-hbr.179.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "w3_nitrate_isotope"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.377.2",
+      "name": "knb-lter-hbr.377.2",
+      "package": "knb-lter-hbr.377.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "MELNHE_Leaf_Area_Fixed_Margins",
+        "MELNHE_foliage_photos_2021-22",
+        "MELNHE_Leaf_Area_Damaged",
+        "MELNHE_Leaf_Area_Scans",
+        "MELNHE_Leaf_Area_JPG"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.314.1",
+      "name": "knb-lter-hbr.314.1",
+      "package": "knb-lter-hbr.314.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "myc.maom.data",
+        "plotData",
+        "grain.size"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.250.1",
+      "name": "knb-lter-hbr.250.1",
+      "package": "knb-lter-hbr.250.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Hubbard Brook Soil Freeze Plot Sapflow, 2010"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.194.2",
+      "name": "knb-lter-hbr.194.2",
+      "package": "knb-lter-hbr.194.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality",
+        "Dynamics"
+      ],
+      "files": [
+        "ccase_saplings_soiltemp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.398.1",
+      "name": "knb-lter-hbr.398.1",
+      "package": "knb-lter-hbr.398.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "NCBI-SRA_Manifest_ParadiseBrook_sequences",
+        "NCBI-SRA_Manifest_CanyonCascadeZigzag_sequences",
+        "NCBI-SRA_Manifest_BearBrook_sequences"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.400.1",
+      "name": "knb-lter-hbr.400.1",
+      "package": "knb-lter-hbr.400.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "moss_mass",
+        "ov_test",
+        "mnp_watershed_labels",
+        "Lateral_Survey_Data",
+        "Longitudinal_Survey_Data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.139.3",
+      "name": "knb-lter-hbr.139.3",
+      "package": "knb-lter-hbr.139.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "w1_stream_isotopes"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.214.1",
+      "name": "knb-lter-hbr.214.1",
+      "package": "knb-lter-hbr.214.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "W3 Surface Water Sampling Data",
+        "W3 Surface Water Sampling Sites"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.350.1",
+      "name": "knb-lter-hbr.350.1",
+      "package": "knb-lter-hbr.350.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality",
+        "Structure"
+      ],
+      "files": [
+        "HBEF_droughtnet_dendrometer_band_DBH",
+        "HBEF_droughtnet_dendrometer_band_measurements"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.137.5",
+      "name": "knb-lter-hbr.137.5",
+      "package": "knb-lter-hbr.137.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hourly soil moisture data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.292.1",
+      "name": "Lepidoptera species recorded within the Hubbard Brook Experimental Forest and vicinity",
+      "package": "knb-lter-hbr.292.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HubbardBrookObservedLepidoptera"
+      ],
+      "abstract": "This dataset contains confirmed observations of lepidoptera species at   the Hubbard Brook Experimental Forest. The original list was published   in Holmes, R. T. and G. E. Likens. 1999....",
+      "keywords": [
+        "ecosystems",
+        "forests",
+        "insects",
+        "HBR",
+        "Hubbard Brook LTER"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.425.1",
+      "name": "knb-lter-hbr.425.1",
+      "package": "knb-lter-hbr.425.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "RockPlots",
+        "Rock_TypeWeight"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.275.1",
+      "name": "knb-lter-hbr.275.1",
+      "package": "knb-lter-hbr.275.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "cone-pond-chem",
+        "Durham_watermethods"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.237.3",
+      "name": "knb-lter-hbr.237.3",
+      "package": "knb-lter-hbr.237.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Dynamics"
+      ],
+      "files": [
+        "Solar Radiation 15min HQ",
+        "Solar Radiation 15min STA1"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.147.1",
+      "name": "knb-lter-hbr.147.1",
+      "package": "knb-lter-hbr.147.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "w3 throughfall"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.105.3",
+      "name": "knb-lter-hbr.105.3",
+      "package": "knb-lter-hbr.105.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Dynamics"
+      ],
+      "files": [
+        "hbef_outcrops.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.15.12",
+      "name": "knb-lter-hbr.15.12",
+      "package": "knb-lter-hbr.15.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ws1_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.283.2",
+      "name": "knb-lter-hbr.283.2",
+      "package": "knb-lter-hbr.283.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "dowel plate ice measurement",
+        "wire ice measurement"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.81.8",
+      "name": "knb-lter-hbr.81.8",
+      "package": "knb-lter-hbr.81.8",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "StinsonMountain_Bird_1986-2000",
+        "HubbardBrook_Bird_MainPlot_1969-2018",
+        "Moosilauke_Bird_1986-2000",
+        "RussellPond_Bird_1986-2000"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.124.5",
+      "name": "knb-lter-hbr.124.5",
+      "package": "knb-lter-hbr.124.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "valley_tree_recruitment"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.21.12",
+      "name": "knb-lter-hbr.21.12",
+      "package": "knb-lter-hbr.21.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ws7_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.436.1",
+      "name": "knb-lter-hbr.436.1",
+      "package": "knb-lter-hbr.436.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "Tree_Inventory",
+        "Foliar_Chemistry",
+        "Wood_Chemistry_SR",
+        "Root_Chemistry_and_Turnover",
+        "Throughfall_Chemistry"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.360.3",
+      "name": "knb-lter-hbr.360.3",
+      "package": "knb-lter-hbr.360.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Quality_Control_2021-2022",
+        "MELNHE_post_treatment_litter_chemistry_2021-22",
+        "Quality_Control_2014-2016",
+        "MELNHE_post_treatment_litter_chemistry_2016",
+        "MELNHE_pre_treatment_litter_chemistry_2010_v2"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.266.1",
+      "name": "knb-lter-hbr.266.1",
+      "package": "knb-lter-hbr.266.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "ISE CWD data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.349.1",
+      "name": "knb-lter-hbr.349.1",
+      "package": "knb-lter-hbr.349.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "HB",
+        "SFP",
+        "CWT",
+        "SiteLocations",
+        "FNW"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.47.7",
+      "name": "knb-lter-hbr.47.7",
+      "package": "knb-lter-hbr.47.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HubbardBrook_FloristicDiversity"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.249.1",
+      "name": "knb-lter-hbr.249.1",
+      "package": "knb-lter-hbr.249.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Dynamics"
+      ],
+      "files": [
+        "soil_PLFA",
+        "Litter_fiber",
+        "Decomposition_litter_inital_chemistry",
+        "Litter_enzymes_T1",
+        "kdata"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.366.1",
+      "name": "knb-lter-hbr.366.1",
+      "package": "knb-lter-hbr.366.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "SourceSink_Field_Data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.222.1",
+      "name": "knb-lter-hbr.222.1",
+      "package": "knb-lter-hbr.222.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF_LichenAbundance",
+        "HBEF_Lichen_PlotDescription"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.68.7",
+      "name": "knb-lter-hbr.68.7",
+      "package": "knb-lter-hbr.68.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "weir sediment"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.381.1",
+      "name": "knb-lter-hbr.381.1",
+      "package": "knb-lter-hbr.381.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "1_Soil_Chemistry_Studer",
+        "2_Soil_PLFA_Studer",
+        "3_PlotLocations_type_Vegetation_Studer"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.419.1",
+      "name": "knb-lter-hbr.419.1",
+      "package": "knb-lter-hbr.419.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "Groffman_HBNO_microbial_biomass_2022-2023_for_EDI"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.241.5",
+      "name": "knb-lter-hbr.241.5",
+      "package": "knb-lter-hbr.241.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Potentiality"
+      ],
+      "files": [
+        "HB_FluxTower_2016_2024"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.43.6",
+      "name": "knb-lter-hbr.43.6",
+      "package": "knb-lter-hbr.43.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF_Birdline_VegInventory_1991-2021"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.307.1",
+      "name": "knb-lter-hbr.307.1",
+      "package": "knb-lter-hbr.307.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "hbwtr_chla_rfu_2021",
+        "hbwtr_chla_rfu_2019_corrected",
+        "hbwtr_chla_mgm2_2018-2023",
+        "Chlorphyll A PUBLISHED documentation Hubbard Brook",
+        "hbwtr_chla_rfu_2020_corrected"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.413.1",
+      "name": "knb-lter-hbr.413.1",
+      "package": "knb-lter-hbr.413.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Utopia"
+      ],
+      "files": [
+        "CCASE Annual Stem Biomass Carbon Growth",
+        "CCASE Cumulative Stem Carbon",
+        "CCASE_Stem_Carbon_RMarkdown"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.9.19",
+      "name": "knb-lter-hbr.9.19",
+      "package": "knb-lter-hbr.9.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ws7_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.247.1",
+      "name": "knb-lter-hbr.247.1",
+      "package": "knb-lter-hbr.247.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF Ice Storm N Cycling Data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.164.5",
+      "name": "knb-lter-hbr.164.5",
+      "package": "knb-lter-hbr.164.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "MELNHE_Nmin_2009-2017"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.183.2",
+      "name": "Tree DBH response to nitrogen and phosphorus fertilization in the MELNHE study, Hubbard Brook Experimental Forest, Bartlett Experimental Forest, and Jeffers Brook",
+      "package": "knb-lter-hbr.183.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "MELNHE_TreeDiameters_LessThan2cm",
+        "MELNHE_TreeDiameters_GreaterThan10cm_2008-2023",
+        "MELNHE_TreeDiameters_2-10cm_2009-2023"
+      ],
+      "abstract": "The Multiple Element Limitation in Northern Hardwood Ecosystems (MELNHE) project studies N and P acquisition and limitation of forest productivity through a series of nutrient manipulations in northern hardwood forests. This data set includes tree diameters at breast height (DBH) collected pre-treat...",
+      "keywords": [
+        "HBR",
+        "Hubbard Brook LTER",
+        "Hubbard Brook Experimental Forest",
+        "Hubbard Brook Ecosystem Study",
+        "HBES"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.145.3",
+      "name": "knb-lter-hbr.145.3",
+      "package": "knb-lter-hbr.145.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "soilfreeze_arth"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.322.7",
+      "name": "knb-lter-hbr.322.7",
+      "package": "knb-lter-hbr.322.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "STA17 15-min air temperature",
+        "STA6 15-min air temperature",
+        "STA1 15-min air temperature",
+        "HQ 15-min air temperature",
+        "STA14 15-min air temperature"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.362.1",
+      "name": "knb-lter-hbr.362.1",
+      "package": "knb-lter-hbr.362.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Dynamics"
+      ],
+      "files": [
+        "W3-lateral-weathering-soilelemental",
+        "W3-lateral-weathering-soilchem"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.226.1",
+      "name": "knb-lter-hbr.226.1",
+      "package": "knb-lter-hbr.226.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "MELNHE Soil Enzyme Activity at HBEF, BEF, and Jeffers Brook, NH, 2014 and 2017"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.189.2",
+      "name": "knb-lter-hbr.189.2",
+      "package": "knb-lter-hbr.189.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "ccase_saplings_root_damage"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.66.9",
+      "name": "knb-lter-hbr.66.9",
+      "package": "knb-lter-hbr.66.9",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Potentiality"
+      ],
+      "files": [
+        "w5soilcn"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.45.5",
+      "name": "knb-lter-hbr.45.5",
+      "package": "knb-lter-hbr.45.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "w1sfchem"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.385.1",
+      "name": "knb-lter-hbr.385.1",
+      "package": "knb-lter-hbr.385.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "ConePond_reconaissance",
+        "ConePond_horizon",
+        "ConePond_pedon"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.285.1",
+      "name": "knb-lter-hbr.285.1",
+      "package": "knb-lter-hbr.285.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality",
+        "Structure"
+      ],
+      "files": [
+        "HubbardBrookObservedAmphibians"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.60.14",
+      "name": "knb-lter-hbr.60.14",
+      "package": "knb-lter-hbr.60.14",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Solar Radiation HQ"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.85.6",
+      "name": "knb-lter-hbr.85.6",
+      "package": "knb-lter-hbr.85.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence",
+        "Potentiality"
+      ],
+      "files": [
+        "ml-west"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.209.1",
+      "name": "knb-lter-hbr.209.1",
+      "package": "knb-lter-hbr.209.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "synoptic surface water survey 2015"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.187.3",
+      "name": "knb-lter-hbr.187.3",
+      "package": "knb-lter-hbr.187.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "ccase_soiltemp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.262.1",
+      "name": "knb-lter-hbr.262.1",
+      "package": "knb-lter-hbr.262.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "CCASE mineralization data"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.438.1",
+      "name": "knb-lter-hbr.438.1",
+      "package": "knb-lter-hbr.438.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Potentiality"
+      ],
+      "files": [
+        "flag_codes",
+        "HBw3D_qc",
+        "HBw9B_qc",
+        "HBw6A_qc",
+        "HBw9C_qc"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.453.1",
+      "name": "knb-lter-hbr.453.1",
+      "package": "knb-lter-hbr.453.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "MothSheets_photoManifest_2023",
+        "2023 moth image zip file",
+        "CollectionDates",
+        "BlacklightImageExample",
+        "BlackLight-Setup"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.120.5",
+      "name": "knb-lter-hbr.120.5",
+      "package": "knb-lter-hbr.120.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Emergence"
+      ],
+      "files": [
+        "valley_plots"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.101.4",
+      "name": "knb-lter-hbr.101.4",
+      "package": "knb-lter-hbr.101.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Potentiality"
+      ],
+      "files": [
+        "hbef_benchmrk.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.203.1",
+      "name": "knb-lter-hbr.203.1",
+      "package": "knb-lter-hbr.203.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "fine root biogenic silica"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.257.1",
+      "name": "knb-lter-hbr.257.1",
+      "package": "knb-lter-hbr.257.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Nbank Microbial Processes"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.117.6",
+      "name": "knb-lter-hbr.117.6",
+      "package": "knb-lter-hbr.117.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "soil_resp"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.193.2",
+      "name": "knb-lter-hbr.193.2",
+      "package": "knb-lter-hbr.193.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Structure"
+      ],
+      "files": [
+        "ccase_saplings_photosynthesis"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.76.7",
+      "name": "knb-lter-hbr.76.7",
+      "package": "knb-lter-hbr.76.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "w582ffcj",
+        "w582ffea",
+        "w582ffaa",
+        "w582ffmj",
+        "w582ffej"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.407.1",
+      "name": "knb-lter-hbr.407.1",
+      "package": "knb-lter-hbr.407.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "Victoroff_etal_MELNHESporocarpData_CompiledForTheDatabase"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.236.1",
+      "name": "knb-lter-hbr.236.1",
+      "package": "knb-lter-hbr.236.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Root table mycorrhizal gradient plots",
+        "Tree table mycorrhizal gradient plots",
+        "Soil respiration in mycorrhizal gradient plots"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.199.2",
+      "name": "knb-lter-hbr.199.2",
+      "package": "knb-lter-hbr.199.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "orchid_transitions",
+        "orchid_stage_leafarea"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.319.1",
+      "name": "knb-lter-hbr.319.1",
+      "package": "knb-lter-hbr.319.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "DEA Assays"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.55.5",
+      "name": "knb-lter-hbr.55.5",
+      "package": "knb-lter-hbr.55.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "treecoreinfo",
+        "treecoredata"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.59.17",
+      "name": "knb-lter-hbr.59.17",
+      "package": "knb-lter-hbr.59.17",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF daily temperature"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.197.4",
+      "name": "Hubbard Brook Experimental Forest: microbial biomass and activity at climate gradient plots, 2010-2012",
+      "package": "knb-lter-hbr.197.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Structure"
+      ],
+      "files": [
+        "Hubbard Brook Climate Gradient Microbial Biomass and Activity"
+      ],
+      "abstract": "In October 2010, as part of a study of the relationships between snow   depth, soil freezing and nutrient cycling   (http://www.ecostudies.org/people_sci_groffman_snow_summary.html), we   established 6 20 x 20 m plots (intensive plots) and 14 10 x 10-m plots   (extensive plots) following an elevatio...",
+      "keywords": [
+        "climate gradient",
+        "Hubbard Brook LTER",
+        "ammonium",
+        "carbon",
+        "denitrification"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.151.2",
+      "name": "knb-lter-hbr.151.2",
+      "package": "knb-lter-hbr.151.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "w5_2004veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.219.1",
+      "name": "knb-lter-hbr.219.1",
+      "package": "knb-lter-hbr.219.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "Site Descriptions",
+        "red spruce foliar metabolites"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.38.7",
+      "name": "knb-lter-hbr.38.7",
+      "package": "knb-lter-hbr.38.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Emergence"
+      ],
+      "files": [
+        "w5_1994veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.211.2",
+      "name": "knb-lter-hbr.211.2",
+      "package": "knb-lter-hbr.211.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hydem1m",
+        "hydem1mlpns",
+        "dem1m"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.272.1",
+      "name": "knb-lter-hbr.272.1",
+      "package": "knb-lter-hbr.272.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "CCASE_Soil_Water_Isotopes"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.428.1",
+      "name": "knb-lter-hbr.428.1",
+      "package": "knb-lter-hbr.428.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HBEF_14C_data_20250423"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.111.3",
+      "name": "knb-lter-hbr.111.3",
+      "package": "knb-lter-hbr.111.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "hbef_peaks.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.32.7",
+      "name": "knb-lter-hbr.32.7",
+      "package": "knb-lter-hbr.32.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "w6_1987veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.357.1",
+      "name": "knb-lter-hbr.357.1",
+      "package": "knb-lter-hbr.357.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Utopia"
+      ],
+      "files": [
+        "HBEF_LogDecomp_NMRSpectrumFiles_T3",
+        "HBEF_LogDecomp_NMRSpectrumFiles_T4",
+        "HBEF_LogDecomp_NMRSpectrumFiles_T5",
+        "NMRSummary",
+        "HBEF_LogDecomp_NMRSpectrumFiles_T0"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.447.1",
+      "name": "knb-lter-hbr.447.1",
+      "package": "knb-lter-hbr.447.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure",
+        "Emergence"
+      ],
+      "files": [
+        "W5_VegetationInventory"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.293.2",
+      "name": "knb-lter-hbr.293.2",
+      "package": "knb-lter-hbr.293.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "HBEF_WS1_LAI_1998-2019"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.330.2",
+      "name": "knb-lter-hbr.330.2",
+      "package": "knb-lter-hbr.330.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HBEF_Barometric_pressure"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.217.1",
+      "name": "knb-lter-hbr.217.1",
+      "package": "knb-lter-hbr.217.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "sapwood metabolites",
+        "foliar metabolites"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.36.7",
+      "name": "knb-lter-hbr.36.7",
+      "package": "knb-lter-hbr.36.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "w5_1982veg"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.20.12",
+      "name": "knb-lter-hbr.20.12",
+      "package": "knb-lter-hbr.20.12",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Emergence"
+      ],
+      "files": [
+        "ws6_precip_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.291.1",
+      "name": "knb-lter-hbr.291.1",
+      "package": "knb-lter-hbr.291.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia",
+        "Emergence"
+      ],
+      "files": [
+        "HubbardBrookObservedBirdSpecies"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.99.5",
+      "name": "knb-lter-hbr.99.5",
+      "package": "knb-lter-hbr.99.5",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "hbef_30mdem.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.156.11",
+      "name": "knb-lter-hbr.156.11",
+      "package": "knb-lter-hbr.156.11",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Structure"
+      ],
+      "files": [
+        "hbef_w1_w5_w6_lys_streams_shapefile",
+        "hbef_w1_w5_w6_lys_streams_csv",
+        "W1Long_StrmChem_HB1991-2025"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.136.6",
+      "name": "knb-lter-hbr.136.6",
+      "package": "knb-lter-hbr.136.6",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "snowgrad_snow"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.276.1",
+      "name": "knb-lter-hbr.276.1",
+      "package": "knb-lter-hbr.276.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HB_WS3_Manganese_Transects"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.259.1",
+      "name": "knb-lter-hbr.259.1",
+      "package": "knb-lter-hbr.259.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "CCASE Sap Flow"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.97.3",
+      "name": "knb-lter-hbr.97.3",
+      "package": "knb-lter-hbr.97.3",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Emergence"
+      ],
+      "files": [
+        "hbef_vege.zip"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.130.4",
+      "name": "knb-lter-hbr.130.4",
+      "package": "knb-lter-hbr.130.4",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "btbw_feed"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.315.2",
+      "name": "knb-lter-hbr.315.2",
+      "package": "knb-lter-hbr.315.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "Elevation gradient study - soil temperature"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.278.7",
+      "name": "knb-lter-hbr.278.7",
+      "package": "knb-lter-hbr.278.7",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "Watershed 5 15-min precipitation",
+        "Watershed 1 15-min precipitation",
+        "Watershed 4 15-min precipitation",
+        "Watershed 8 15-min precipitation",
+        "idw_weights_nfw"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.391.1",
+      "name": "knb-lter-hbr.391.1",
+      "package": "knb-lter-hbr.391.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "SpotMapScans_manifest",
+        "SpotMapScans"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.253.1",
+      "name": "knb-lter-hbr.253.1",
+      "package": "knb-lter-hbr.253.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics"
+      ],
+      "files": [
+        "HBEF_insitu_nmin_compilation"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.49.11",
+      "name": "Fine Litterfall Data at the Hubbard Brook Experimental Forest, 1992 - ongoing",
+      "package": "knb-lter-hbr.49.11",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "HBEF_fine_litter_1992-2024"
+      ],
+      "abstract": "Fine litterfall (leaves, twigs, fruits, seeds, etc.) is collected in Watershed 1, Watershed 5, the Throughfall plots and the Bear Brook Watershed reference forest, located to the west of Watershed 6, to quantify carbon and nutrient flux associated with this important pathway. These measurements have...",
+      "keywords": [
+        "HBR",
+        "Hubbard Brook LTER",
+        "Hubbard Brook Experimental Forest",
+        "Hubbard Brook Ecosystem Study",
+        "HBES"
+      ]
+    },
+    {
+      "id": "knb-lter-hbr.393.2",
+      "name": "knb-lter-hbr.393.2",
+      "package": "knb-lter-hbr.393.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "oak_interannual_2014-2023"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.403.1",
+      "name": "knb-lter-hbr.403.1",
+      "package": "knb-lter-hbr.403.1",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "figs_4_S1_combining",
+        "fig_2_initial_structure",
+        "data_fig_3_stand_str",
+        "fig_3_ba_stem_plots",
+        "Bayes_diagnostics_rstanarm"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.208.14",
+      "name": "knb-lter-hbr.208.14",
+      "package": "knb-lter-hbr.208.14",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Potentiality"
+      ],
+      "files": [
+        "HubbardBrook_weekly_precipitation_chemistry_1963-2025",
+        "HubbardBrook_weekly_stream_chemistry_1963-2025",
+        "WaterChemistryAnalyticalMethods"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.170.2",
+      "name": "knb-lter-hbr.170.2",
+      "package": "knb-lter-hbr.170.2",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Utopia"
+      ],
+      "files": [
+        "W3stm_precip_no3"
+      ],
+      "abstract": "",
+      "keywords": []
+    },
+    {
+      "id": "knb-lter-hbr.8.19",
+      "name": "knb-lter-hbr.8.19",
+      "package": "knb-lter-hbr.8.19",
+      "group": "dataset",
+      "val": 3,
+      "themes": [
+        "Dynamics",
+        "Structure"
+      ],
+      "files": [
+        "ws6_stream_monthly_flux_gHa"
+      ],
+      "abstract": "",
+      "keywords": []
+    }
+  ],
+  "links": [
+    {
+      "source": "knb-lter-hbr.348.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.46.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.361.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.323.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.437.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.165.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.13.24",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.321.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.188.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.206.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.146.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.104.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.140.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.140.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.56.13",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.56.13",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.306.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.242.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.29.6",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.163.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.223.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.223.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.100.5",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.240.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.48.6",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.17.12",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.23.12",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.144.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.80.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.369.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.246.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.42.9",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.121.5",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.346.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.439.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.344.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.344.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.161.4",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.263.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.327.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.327.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.123.6",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.84.6",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.138.14",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.16.12",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.22.12",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.92.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.373.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.2.15",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.198.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.406.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.175.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.175.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.192.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.192.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.379.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.379.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.98.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.256.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.298.4",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.131.5",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.212.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.33.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.277.11",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.442.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.354.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.210.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.210.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.171.4",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.39.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.273.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.218.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.218.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.423.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.150.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.150.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.448.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.57.12",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.333.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.333.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.290.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.339.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.37.7",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.37.7",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.352.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.446.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.114.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.392.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.252.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.252.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.316.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.316.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.196.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.196.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.239.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.239.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.408.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.408.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.233.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.233.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.96.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.258.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.50.10",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.143.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.185.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.268.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.168.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.383.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.19.12",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.122.4",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.122.4",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.220.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.364.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.11.19",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.320.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.264.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.5.19",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.83.6",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.434.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.205.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.1.18",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.1.18",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.107.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.289.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.345.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.201.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.201.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.103.4",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.149.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.141.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.41.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.128.5",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.324.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.324.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.260.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.287.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.87.6",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.87.6",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.116.14",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.387.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.126.4",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.224.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.368.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.166.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.415.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.207.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.24.8",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.245.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.301.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.30.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.127.15",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.317.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.295.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.178.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.113.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.51.16",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.270.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.334.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.172.4",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.172.4",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.297.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.153.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.420.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.14.21",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.397.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.397.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.91.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.91.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.234.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.405.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.157.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.372.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.372.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.311.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.311.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.255.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.191.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.399.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.119.5",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.195.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.376.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.251.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.336.4",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.53.5",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.53.5",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.18.12",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.374.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.95.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.10.19",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.353.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.82.11",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.4.19",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.424.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.176.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.215.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.351.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.351.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.34.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.313.4",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.313.4",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.155.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.155.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.186.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.284.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.169.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.382.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.62.21",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.62.21",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.129.4",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.269.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.269.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.248.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.248.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.86.7",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.410.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.142.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.380.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.380.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.88.6",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.118.10",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.106.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.288.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.3.19",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.204.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.282.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.44.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.125.6",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.265.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.286.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.108.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.325.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.261.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.261.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.184.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.40.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.102.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.200.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.308.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.180.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.27.21",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.65.7",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.7.19",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.363.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.363.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.244.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.300.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.414.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.167.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.182.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.25.6",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.302.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.225.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.386.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.173.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.152.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.296.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.429.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.390.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.271.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.335.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.335.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.337.5",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.112.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.67.26",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.67.26",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.294.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.294.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.31.7",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.6.19",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.190.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.35.8",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.254.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.404.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.312.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.371.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.235.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.235.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.396.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.90.4",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.375.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.94.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.179.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.377.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.314.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.250.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.194.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.194.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.398.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.400.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.139.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.214.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.350.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.350.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.137.5",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.292.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.425.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.275.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.237.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.237.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.147.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.105.3",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.105.3",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.15.12",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.283.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.81.8",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.124.5",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.21.12",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.436.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.360.3",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.266.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.349.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.47.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.249.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.249.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.366.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.222.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.68.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.381.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.419.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.241.5",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.241.5",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.43.6",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.307.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.413.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.413.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.9.19",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.247.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.164.5",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.183.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.145.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.322.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.362.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.362.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.226.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.189.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.66.9",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.66.9",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.45.5",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.385.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.285.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.285.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.60.14",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.85.6",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.85.6",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.209.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.187.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.262.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.438.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.438.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.453.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.120.5",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.120.5",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.101.4",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.101.4",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.203.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.257.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.117.6",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.193.2",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.193.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.76.7",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.407.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.236.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.199.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.319.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.55.5",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.59.17",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.197.4",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.197.4",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.151.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.219.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.38.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.38.7",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.211.2",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.272.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.428.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.111.3",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.32.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.357.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.357.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.447.1",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.447.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.293.2",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.330.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.217.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.36.7",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.20.12",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.20.12",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.291.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.291.1",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.99.5",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.156.11",
+      "target": "Structure",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.136.6",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.276.1",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.259.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.97.3",
+      "target": "Emergence",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.130.4",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.315.2",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.278.7",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.391.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.253.1",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.49.11",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.393.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.403.1",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.208.14",
+      "target": "Potentiality",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.170.2",
+      "target": "Utopia",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.8.19",
+      "target": "Dynamics",
+      "value": 1
+    },
+    {
+      "source": "knb-lter-hbr.8.19",
+      "target": "Structure",
+      "value": 1
+    }
+  ]
+}
