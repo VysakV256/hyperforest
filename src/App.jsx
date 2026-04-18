@@ -1,7 +1,9 @@
 import React, { useRef, useState, useCallback, useMemo, useEffect } from 'react';
 import ForceGraph3D from 'react-force-graph-3d';
 import * as THREE from 'three';
-import { AreaChart, Area, ResponsiveContainer, YAxis } from 'recharts';
+import { AreaChart, Area, ResponsiveContainer, YAxis, XAxis, Tooltip } from 'recharts';
+import ShaderThumbnail from './ShaderThumbnail';
+import { audioEngine } from './AudioEngine';
 import graphData from './datasets.json';
 import './index.css';
 
@@ -11,6 +13,14 @@ const THEME_COLORS = {
   "Emergence": "#f4a261",
   "Potentiality": "#8a5a99",
   "Utopia": "#2b9348"
+};
+
+const hashStr = (str) => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+       hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    return Math.abs(hash) / 10000000.0;
 };
 
 // Shaders for rendering organic dataset nodes
@@ -113,7 +123,24 @@ const themeGeometry = new THREE.SphereGeometry(12, 32, 32);
 export default function App() {
   const fgRef = useRef();
   const [hoverNode, setHoverNode] = useState(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [panelPos, setPanelPos] = useState({ x: 0, y: 0 });
+  const [isTooltipHovered, setIsTooltipHovered] = useState(false);
+  
+  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [isPinned, setIsPinned] = useState(false);
+  
+  const [audioEnabled, setAudioEnabled] = useState(false);
+  
+  const hoverTimeoutRef = useRef();
+  const positionLockRef = useRef(false);
+  const dragStartPosRef = useRef({ x: 0, y: 0 });
+  const isPinnedRef = useRef(false);
+
+  const setIsPinnedWrapper = useCallback((val) => {
+      setIsPinned(val);
+      isPinnedRef.current = val;
+  }, []);
 
   // Store materials so we can update uniforms globally
   const materialsRef = useRef([]);
@@ -134,23 +161,78 @@ export default function App() {
     return () => cancelAnimationFrame(animationFrameId);
   }, []);
 
-  const handleNodeHover = useCallback((node, prevNode) => {
-    setHoverNode(node || null);
-    
-    // UI Interaction - pause orbital rotation if hovering
-    if (fgRef.current) {
-        fgRef.current.controls().autoRotate = node ? false : true;
+  const handleNodeHover = useCallback((node) => {
+    if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+
+    if (node) {
+      setHoverNode((prev) => {
+          if (prev?.id !== node.id) {
+              positionLockRef.current = true;
+              setIsPinnedWrapper(false);
+              setDragOffset({ x: 0, y: 0 });
+          }
+          return node;
+      });
+      if (fgRef.current) {
+          fgRef.current.controls().autoRotate = false;
+      }
+    } else {
+      hoverTimeoutRef.current = setTimeout(() => {
+        if (!isPinnedRef.current) {
+          setHoverNode(null);
+          positionLockRef.current = false;
+        }
+        if (fgRef.current) fgRef.current.controls().autoRotate = true;
+      }, 400); 
+    }
+  }, [setIsPinnedWrapper]);
+
+  const handleMouseMove = useCallback((e) => {
+    if (!positionLockRef.current) {
+        setPanelPos({ x: e.clientX, y: e.clientY });
     }
   }, []);
 
-  const handleMouseMove = useCallback((e) => {
-    setMousePos({ x: e.clientX, y: e.clientY });
-  }, []);
+  useEffect(() => {
+    const handleMove = (e) => {
+      if (isDragging) {
+         setDragOffset({
+            x: e.clientX - dragStartPosRef.current.x,
+            y: e.clientY - dragStartPosRef.current.y
+         });
+      }
+    };
+    const handleUp = () => {
+      setIsDragging(false);
+    };
+
+    if (isDragging) {
+      window.addEventListener('pointermove', handleMove);
+      window.addEventListener('pointerup', handleUp);
+    }
+    return () => {
+      window.removeEventListener('pointermove', handleMove);
+      window.removeEventListener('pointerup', handleUp);
+    }
+  }, [isDragging]);
 
   useEffect(() => {
       window.addEventListener('mousemove', handleMouseMove);
       return () => window.removeEventListener('mousemove', handleMouseMove);
   }, [handleMouseMove]);
+
+  useEffect(() => {
+      if (audioEnabled) {
+          audioEngine.playNode(hoverNode);
+      }
+  }, [hoverNode, audioEnabled]);
+
+  const handleAudioStart = async () => {
+      if (!audioEnabled) {
+          await audioEngine.init();
+          setAudioEnabled(true);
+      }
+  };
 
   const renderNode = useCallback((node) => {
     if (node.group === 'theme') {
@@ -168,15 +250,6 @@ export default function App() {
     // Dataset node: Render a unique ShaderMaterial
     const mainTheme = node.themes ? node.themes[0] : "Dynamics";
     const baseColorHex = THEME_COLORS[mainTheme] || '#ffffff';
-    
-    // Convert string ID to a chaotic seed float
-    const hashStr = (str) => {
-        let hash = 0;
-        for (let i = 0; i < str.length; i++) {
-           hash = str.charCodeAt(i) + ((hash << 5) - hash);
-        }
-        return Math.abs(hash) / 10000000.0;
-    };
 
     const shaderMaterial = new THREE.ShaderMaterial({
       vertexShader,
@@ -212,10 +285,17 @@ export default function App() {
   return (
     <div style={{ width: '100vw', height: '100vh', background: '#020503' }}>
       
+      <button 
+        className={`audio-btn ${audioEnabled ? 'enabled' : ''}`}
+        onClick={handleAudioStart}
+      >
+        {audioEnabled ? '🔊 Audio Synced' : '🔇 Start Audio Space'}
+      </button>
+
       {/* UI Overlay */}
       <div className="app-header">
         <h1>Hyperforest</h1>
-        <p>Hubbard Brook Datasets • Neural Architecture</p>
+        <p>Hubbard Brook Datasets • Living Architecture</p>
       </div>
       
       <div className="instructions">
@@ -246,50 +326,112 @@ export default function App() {
 
       {/* Tooltip Overlay */}
       <div 
-        className={"glass-panel node-tooltip " + (hoverNode ? 'visible' : '')}
+        className={`glass-panel node-tooltip ${(hoverNode || isTooltipHovered || isPinned) ? 'visible' : ''} ${isDragging ? 'dragging' : ''}`}
         style={{
-          left: mousePos.x + 20,
-          top: mousePos.y + 20
+          left: Math.min(panelPos.x + 20, window.innerWidth - 420),
+          top: panelPos.y > window.innerHeight / 2 ? 'auto' : panelPos.y + 20,
+          bottom: panelPos.y > window.innerHeight / 2 ? Math.max(20, window.innerHeight - panelPos.y + 20) : 'auto',
+          maxHeight: 'calc(100vh - 40px)',
+          transform: `translate(${dragOffset.x}px, ${dragOffset.y}px)`,
+          touchAction: 'none'
+        }}
+        onMouseEnter={() => {
+            if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
+            setIsTooltipHovered(true);
+        }}
+        onMouseLeave={() => {
+            setIsTooltipHovered(false);
+            if (!isPinnedRef.current) {
+                setHoverNode(null);
+                positionLockRef.current = false;
+                if (fgRef.current) fgRef.current.controls().autoRotate = true;
+            }
+        }}
+        onPointerDown={(e) => {
+            e.stopPropagation();
+            setIsDragging(true);
+            setIsPinnedWrapper(true);
+            dragStartPosRef.current = { x: e.clientX - dragOffset.x, y: e.clientY - dragOffset.y };
         }}
       >
-        {hoverNode && (
-          <>
-            <span className="package-id">{hoverNode.package || hoverNode.id}</span>
-            <h2>{hoverNode.name}</h2>
-            
-            {hoverNode.themes && (
-              <div style={{ marginBottom: '1rem' }}>
-                {hoverNode.themes.map(t => (
-                  <span 
-                    key={t} 
-                    className="theme-pill"
-                    style={{ 
-                      backgroundColor: THEME_COLORS[t] + '22',
-                      color: THEME_COLORS[t],
-                      border: "1px solid " + THEME_COLORS[t] + "55"
-                    }}
-                  >
-                    {t}
-                  </span>
-                ))}
+        {isPinned && (
+           <button 
+                className="close-btn" 
+                onClick={(e) => { 
+                    e.stopPropagation();
+                    setIsPinnedWrapper(false); 
+                    setHoverNode(null); 
+                    positionLockRef.current = false; 
+                }}
+            >
+                ✕
+           </button>
+        )}
+        
+        {(hoverNode || isTooltipHovered || isPinned) && hoverNode && (
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', marginBottom: '1rem' }}>
+              <ShaderThumbnail 
+                  seed={hashStr(hoverNode.id)} 
+                  color={hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : THEME_COLORS["Dynamics"]} 
+              />
+              <div style={{ flex: 1 }}>
+                <span className="package-id">{hoverNode.package || hoverNode.id}</span>
+                <h2 style={{marginTop: '0.5rem'}}>{hoverNode.name}</h2>
+                {hoverNode.themes && (
+                  <div>
+                    {hoverNode.themes.map(t => (
+                      <span 
+                        key={t} 
+                        className="theme-pill"
+                        style={{ 
+                          backgroundColor: THEME_COLORS[t] + '22',
+                          color: THEME_COLORS[t],
+                          border: "1px solid " + THEME_COLORS[t] + "55"
+                        }}
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
-            )}
+            </div>
 
             {hoverNode.abstract && (
               <p className="abstract">{hoverNode.abstract}</p>
             )}
 
             {hoverNode.csv_preview && hoverNode.csv_preview.length > 0 && (
-              <div style={{ width: '100%', height: '80px', marginTop: '1rem', marginBottom: '0.5rem' }}>
+              <div style={{ width: '100%', height: '140px', marginTop: '1rem', marginBottom: '0.5rem' }}>
                 <ResponsiveContainer width="100%" height="100%">
-                  <AreaChart data={hoverNode.csv_preview}>
+                  <AreaChart data={hoverNode.csv_preview} margin={{ top: 5, right: 10, left: 10, bottom: 0 }}>
                     <defs>
                       <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
                         <stop offset="5%" stopColor={hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : "#2a9d8f"} stopOpacity={0.8}/>
                         <stop offset="95%" stopColor={hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : "#2a9d8f"} stopOpacity={0}/>
                       </linearGradient>
                     </defs>
+                    <XAxis 
+                        dataKey="date" 
+                        tick={{fontSize: 10, fill: '#95bba2'}} 
+                        tickFormatter={(t) => (t && t.length >= 4) ? t.substring(0,4) : t} 
+                        minTickGap={20} 
+                        axisLine={false} 
+                        tickLine={false}
+                    />
                     <YAxis domain={['dataMin', 'dataMax']} hide={true} />
+                    <Tooltip 
+                        contentStyle={{ 
+                            backgroundColor: 'rgba(5, 20, 10, 0.9)', 
+                            border: '1px solid rgba(30, 150, 60, 0.4)', 
+                            borderRadius: '8px', 
+                            fontSize: '12px',
+                            color: '#e0f2e5'
+                        }}
+                        itemStyle={{ color: hoverNode.themes ? THEME_COLORS[hoverNode.themes[0]] : '#e0f2e5' }}
+                        labelStyle={{ color: '#95bba2', marginBottom: '4px' }}
+                    />
                     <Area 
                       type="monotone" 
                       dataKey="value" 
@@ -309,7 +451,7 @@ export default function App() {
                 ))}
               </div>
             )}
-          </>
+          </div>
         )}
       </div>
     </div>
