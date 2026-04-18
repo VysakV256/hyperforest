@@ -18,22 +18,14 @@ class AudioEngine {
         this.masterReverb = new Tone.Reverb({ decay: 8, wet: 0.65 }).toDestination();
         this.masterFilter = new Tone.AutoFilter("0.1n").connect(this.masterReverb).start();
         
-        // 2. Cosmic Background Drone (Simulating 342 shifting objects)
-        this.droneSynth = new Tone.PolySynth(Tone.FMSynth, {
-            harmonicity: 1.5,
-            modulationIndex: 3.1,
+        // 2. Isolated Dataset Synthesizer (The Physical Nodes)
+        this.soloSynth = new Tone.FMSynth({
+            harmonicity: 2.01,
+            modulationIndex: 1.5,
             oscillator: { type: "sine" },
-            envelope: { attack: 4, decay: 2, sustain: 1, release: 5 },
-            modulation: { type: "triangle" },
-            modulationEnvelope: { attack: 2, decay: 1, sustain: 0.8, release: 2 }
-        }).connect(this.masterFilter);
-        
-        this.droneSynth.volume.value = -23; // Subtle hum
-
-        // 3. Isolated Dataset Synthesizer (The Physical Nodes)
-        this.soloSynth = new Tone.Synth({
-            oscillator: { type: "sawtooth8" },
-            envelope: { attack: 0.05, decay: 0.3, sustain: 0.2, release: 1.5 }
+            envelope: { attack: 0.1, decay: 0.8, sustain: 0.4, release: 3.5 },
+            modulation: { type: "sine" },
+            modulationEnvelope: { attack: 0.05, decay: 0.5, sustain: 0.1, release: 2 }
         });
         
         const feedbackDelay = new Tone.FeedbackDelay("8n", 0.4);
@@ -44,9 +36,6 @@ class AudioEngine {
         
         // Prime Tone Transport
         Tone.Transport.start();
-
-        // Trigger infinite cosmic background chord
-        this.droneSynth.triggerAttack(["G2", "D3", "Bb3"]);
     }
 
     playNode(nodeData) {
@@ -59,12 +48,7 @@ class AudioEngine {
             this.sequence = null;
         }
 
-        // Dip the background drone organically
-        this.droneSynth.volume.rampTo(-38, 1);
-
         if (!nodeData || !nodeData.csv_preview || nodeData.csv_preview.length === 0) {
-            // Float the background hum back up when the player drops the node
-            this.droneSynth.volume.rampTo(-23, 2);
             return;
         }
 

@@ -23,6 +23,52 @@ const hashStr = (str) => {
     return Math.abs(hash) / 10000000.0;
 };
 
+const globalListener = new THREE.AudioListener();
+
+function createNodeAudioBuffer(audioCtx, seedHash, isOrganic) {
+    const sampleRate = audioCtx.sampleRate;
+    const length = sampleRate * 3.0; 
+    const buffer = audioCtx.createBuffer(1, length, sampleRate);
+    const data = buffer.getChannelData(0);
+    
+    const tuningHex = [87.31, 98.00, 110.00, 130.81, 146.83];
+    const baseFreq = tuningHex[Math.floor(seedHash * 5) % 5] / 2; 
+    
+    for(let i=0; i<length; i++) {
+        const t = i / sampleRate;
+        
+        // 1. Organic Base (Deep fundamental sine + a perfect 5th)
+        let organic = Math.sin(2 * Math.PI * baseFreq * t) + 
+                      0.5 * Math.sin(2 * Math.PI * (baseFreq * 1.5) * t);
+        
+        // Add "wind/breath" flutter 
+        const organicTremolo = 0.8 + 0.2 * Math.sin(2 * Math.PI * 0.5 * t); 
+        organic *= organicTremolo;
+
+        // 2. Utopian Digital Tones (High-frequency crystalline FM sine wave)
+        const modulatorFreq = baseFreq * 4; 
+        const carrierFreq = baseFreq * 8.02;
+        const modulationIndex = 2.0; 
+        const digitalBell = Math.sin(2 * Math.PI * carrierFreq * t + modulationIndex * Math.sin(2 * Math.PI * modulatorFreq * t));
+        
+        const digitalPulse = (Math.sin(Math.PI * (t * 8)) ** 4); 
+        
+        // 3. Symbiosis Blend
+        let mix;
+        if (isOrganic) {
+            mix = organic * 0.8 + (digitalBell * digitalPulse) * 0.2;
+        } else {
+            mix = organic * 0.4 + (digitalBell * digitalPulse) * 0.6;
+        }
+        
+        // 4. Overarching Breathing Envelope 
+        const env = Math.sin(Math.PI * (t / 3.0)) ** 2;
+        
+        data[i] = mix * env * 0.12; 
+    }
+    return buffer;
+}
+
 // Shaders for rendering organic dataset nodes
 const vertexShader = `
   varying vec2 vUv;
@@ -229,7 +275,14 @@ export default function App() {
 
   const handleAudioStart = async () => {
       if (!audioEnabled) {
+          if (globalListener.context.state === 'suspended') {
+              await globalListener.context.resume();
+          }
           await audioEngine.init();
+          
+          if (fgRef.current) {
+              fgRef.current.camera().add(globalListener);
+          }
           setAudioEnabled(true);
       }
   };
@@ -268,7 +321,26 @@ export default function App() {
 
     const mesh = new THREE.Mesh(baseGeometry, shaderMaterial);
     
-    // If we have themes, add a smaller glow ring
+    // Attach volumetric procedural audio 
+    if (!mesh.userData.audioApplied) {
+        const positionalAudio = new THREE.PositionalAudio(globalListener);
+        const isOrganic = node.themes && ["Emergence", "Utopia"].includes(node.themes[0]);
+        const buffer = createNodeAudioBuffer(globalListener.context, hashStr(node.id), isOrganic);
+        
+        positionalAudio.setBuffer(buffer);
+        positionalAudio.setRefDistance(15);
+        positionalAudio.setMaxDistance(150);
+        positionalAudio.setRolloffFactor(1);
+        positionalAudio.setLoop(true);
+        positionalAudio.setVolume(1.0);
+        
+        mesh.add(positionalAudio);
+        mesh.userData.audioApplied = true;
+        
+        // Start streaming natively. It naturally mutes itself if context is globally suspended
+        if (!positionalAudio.isPlaying) positionalAudio.play();
+    }
+    
     return mesh;
   }, []);
 
