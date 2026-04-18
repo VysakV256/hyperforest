@@ -177,6 +177,8 @@ export default function App() {
   const [isPinned, setIsPinned] = useState(false);
   
   const [audioEnabled, setAudioEnabled] = useState(false);
+  const audioEnabledRef = useRef(false);
+  const spatialNodesMapRef = useRef(new Map());
   
   const hoverTimeoutRef = useRef();
   const positionLockRef = useRef(false);
@@ -191,9 +193,11 @@ export default function App() {
   // Store materials so we can update uniforms globally
   const materialsRef = useRef([]);
 
-  // Animation Loop for Shaders
+  // Animation Loop for Shaders & Audio Culling
   useEffect(() => {
     let animationFrameId;
+    let lastAudioUpdate = 0;
+    
     const animate = () => {
       const time = performance.now() * 0.001;
       materialsRef.current.forEach(mat => {
@@ -201,6 +205,27 @@ export default function App() {
           mat.uniforms.u_time.value = time;
         }
       });
+      
+      // Geometric Voice Culling - Triangulates nearest topologies exactly 10x per second
+      if (audioEnabledRef.current && fgRef.current && (time - lastAudioUpdate > 0.1)) {
+          lastAudioUpdate = time;
+          const camPos = fgRef.current.camera().position;
+          const nodesArray = Array.from(spatialNodesMapRef.current.values());
+          
+          nodesArray.sort((a, b) => {
+              return a.mesh.position.distanceToSquared(camPos) - b.mesh.position.distanceToSquared(camPos);
+          });
+          
+          // Absolute concurrent threading cap: Top 12 voices
+          nodesArray.forEach((item, index) => {
+              if (index < 12) {
+                  if (!item.pAudio.isPlaying) item.pAudio.play();
+              } else {
+                  if (item.pAudio.isPlaying) item.pAudio.pause();
+              }
+          });
+      }
+      
       animationFrameId = requestAnimationFrame(animate);
     };
     animate();
@@ -284,6 +309,7 @@ export default function App() {
               fgRef.current.camera().add(globalListener);
           }
           setAudioEnabled(true);
+          audioEnabledRef.current = true;
       }
   };
 
@@ -336,9 +362,9 @@ export default function App() {
         
         mesh.add(positionalAudio);
         mesh.userData.audioApplied = true;
+        spatialNodesMapRef.current.set(node.id, { mesh, pAudio: positionalAudio });
         
-        // Start streaming natively. It naturally mutes itself if context is globally suspended
-        if (!positionalAudio.isPlaying) positionalAudio.play();
+        // Removed aggressive native auto-play. The animate loop handles hardware authorization securely.
     }
     
     return mesh;
