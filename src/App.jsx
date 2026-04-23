@@ -8,11 +8,11 @@ import graphData from './datasets.json';
 import './index.css';
 
 const THEME_COLORS = {
-  "Dynamics": "#2a9d8f",
-  "Structure": "#e9c46a",
-  "Emergence": "#f4a261",
-  "Potentiality": "#8a5a99",
-  "Utopia": "#2b9348"
+  "Dynamics": "#047857",
+  "Structure": "#059669",
+  "Emergence": "#10b981",
+  "Potentiality": "#34d399",
+  "Utopia": "#a7f3d0"
 };
 
 const hashStr = (str) => {
@@ -162,6 +162,67 @@ const fragmentShader = `
   }
 `;
 
+// Background Photographic Manifold Shaders
+const manifoldVertexShader = `
+  varying vec2 vUv;
+  void main() {
+    vUv = uv;
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+  }
+`;
+
+const manifoldFragmentShader = `
+  varying vec2 vUv;
+  uniform sampler2D tex0;
+  uniform sampler2D tex1;
+  uniform sampler2D tex2;
+  uniform float u_time;
+
+  vec3 permute(vec3 x) { return mod(((x*34.0)+1.0)*x, 289.0); }
+  float snoise(vec2 v){
+      const vec4 C = vec4(0.211324865405187, 0.366025403784439, -0.577350269189626, 0.024390243902439);
+      vec2 i  = floor(v + dot(v, C.yy) );
+      vec2 x0 = v -   i + dot(i, C.xx);
+      vec2 i1;
+      i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+      vec4 x12 = x0.xyxy + C.xxzz;
+      x12.xy -= i1;
+      i = mod(i, 289.0);
+      vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 )) + i.x + vec3(0.0, i1.x, 1.0 ));
+      vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);
+      m = m*m; m = m*m;
+      vec3 x = 2.0 * fract(p * C.www) - 1.0;
+      vec3 h = abs(x) - 0.5;
+      vec3 ox = floor(x + 0.5);
+      vec3 a0 = x - ox;
+      m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
+      vec3 g;
+      g.x  = a0.x  * x0.x  + h.x  * x0.y;
+      g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+      return 130.0 * dot(m, g);
+  }
+
+  void main() {
+      float noise1 = snoise(vUv * 3.0 + u_time * 0.03);
+      float noise2 = snoise(vUv * 4.0 - u_time * 0.05);
+      
+      vec2 distortedUv = vUv + vec2(noise1, noise2) * 0.08;
+      
+      vec4 color0 = texture2D(tex0, distortedUv);
+      vec4 color1 = texture2D(tex1, distortedUv + vec2(0.05, 0.0));
+      vec4 color2 = texture2D(tex2, distortedUv - vec2(0.0, 0.05));
+      
+      float morph = (snoise(vUv * 1.5 + u_time * 0.015) + 1.0) * 0.5;
+      vec4 finalCol = mix(color0, mix(color1, color2, morph), morph);
+      
+      // Infinitely bright exposure blowout
+      finalCol.rgb *= 1.8; 
+      finalCol.rgb += vec3(0.15);
+      
+      gl_FragColor = vec4(max(finalCol.rgb, 0.0), 1.0);
+  }
+`;
+
 // Pre-create geometries so we aren't creating 300+ geometries
 const baseGeometry = new THREE.IcosahedronGeometry(4, 32); 
 const themeGeometry = new THREE.SphereGeometry(12, 32, 32);
@@ -192,6 +253,44 @@ export default function App() {
 
   // Store materials so we can update uniforms globally
   const materialsRef = useRef([]);
+  const manifoldUniformsRef = useRef(null);
+
+  // Background Manifold Builder
+  useEffect(() => {
+    // Delay slightly to ensure forcegraph scene is securely initialized on mount
+    const timer = setTimeout(() => {
+      if (fgRef.current && fgRef.current.scene) {
+         const texLoader = new THREE.TextureLoader();
+         const t0 = texLoader.load('/backgrounds/bg_0.jpg');
+         const t1 = texLoader.load('/backgrounds/bg_1.jpg');
+         const t2 = texLoader.load('/backgrounds/bg_3.jpg');
+         
+         [t0,t1,t2].forEach(t => {
+             t.wrapS = THREE.RepeatWrapping;
+             t.wrapT = THREE.RepeatWrapping;
+             t.colorSpace = THREE.SRGBColorSpace;
+         });
+
+         const manifoldMat = new THREE.ShaderMaterial({
+             vertexShader: manifoldVertexShader,
+             fragmentShader: manifoldFragmentShader,
+             uniforms: {
+                 u_time: { value: 0 },
+                 tex0: { value: t0 },
+                 tex1: { value: t1 },
+                 tex2: { value: t2 }
+             },
+             side: THREE.BackSide,
+             depthWrite: false
+         });
+         
+         manifoldUniformsRef.current = manifoldMat.uniforms;
+         const manifoldMesh = new THREE.Mesh(new THREE.SphereGeometry(2500, 32, 32), manifoldMat);
+         fgRef.current.scene().add(manifoldMesh);
+      }
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
 
   // Animation Loop for Shaders & Audio Culling
   useEffect(() => {
@@ -205,6 +304,10 @@ export default function App() {
           mat.uniforms.u_time.value = time;
         }
       });
+      
+      if (manifoldUniformsRef.current) {
+          manifoldUniformsRef.current.u_time.value = time;
+      }
       
       // Geometric Voice Culling - Triangulates nearest topologies exactly 10x per second
       if (audioEnabledRef.current && fgRef.current && (time - lastAudioUpdate > 0.1)) {
@@ -383,22 +486,35 @@ export default function App() {
   return (
     <div style={{ width: '100vw', height: '100vh', background: '#020503' }}>
       
-      <button 
-        className={`audio-btn ${audioEnabled ? 'enabled' : ''}`}
-        onClick={handleAudioStart}
-      >
-        {audioEnabled ? '🔊 Audio Synced' : '🔇 Start Audio Space'}
-      </button>
-
       {/* UI Overlay */}
       <div className="app-header">
-        <h1>Hyperforest</h1>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '0.2rem' }}>
+          <h1>Hyperforest</h1>
+          <button 
+            className={`audio-btn ${audioEnabled ? 'enabled' : ''}`}
+            onClick={handleAudioStart}
+          >
+            {audioEnabled ? '🔊 Audio Synced' : '🔇 Start Audio Space'}
+          </button>
+        </div>
         <p>Hubbard Brook Datasets • Living Architecture</p>
+        
+        <div className="intro-panel">
+          ✨ Explore the data multiverse in infinite freedom
+        </div>
       </div>
       
+      {/* Source Data Portal Links */}
+      <div className="source-links-panel glass-panel">
+        <h3>Primary Orchestrators</h3>
+        <a href="https://data.hubbardbrook.org/" target="_blank" rel="noopener noreferrer">Hubbard Brook Data Catalog</a>
+        <a href="https://portal.edirepository.org/" target="_blank" rel="noopener noreferrer">EDI Global Ecosystem Portal</a>
+      </div>
+
       <div className="instructions">
-        <p>Rotate / Scroll to Zoom</p>
-        <p>Hover over nodes for signals</p>
+        <p><strong>Scroll</strong> to zoom • <strong>Drag</strong> to rotate</p>
+        <p><strong>Hover</strong> node for dataset topology</p>
+        <p><strong>Drag Tooltip</strong> to pin globally in space</p>
       </div>
 
       <ForceGraph3D
